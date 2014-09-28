@@ -901,171 +901,6 @@
             "sv": "Mandelbulber",
             "de": "Mandelbulber"
           }
-        },
-        {
-          "type": "desktop",
-          "source": "antolin",
-          "osIconPath": "/usr/share/pixmaps/antolin.png"
-        },
-        {
-          "type": "desktop",
-          "source": "blindekuh",
-          "osIconPath": "/usr/share/pixmaps/blindekuh.png"
-        },
-        {
-          "type": "desktop",
-          "source": "bodenreise",
-          "osIconPath": "/usr/share/pixmaps/bodenreise.png"
-        },
-        {
-          "type": "desktop",
-          "source": "cool-driving",
-          "osIconPath": "/usr/share/pixmaps/cool-driving.png"
-        },
-        {
-          "type": "desktop",
-          "source": "duden",
-          "osIconPath": "/usr/share/pixmaps/duden.png"
-        },
-        {
-          "type": "desktop",
-          "source": "flubidux",
-          "osIconPath": "/usr/share/pixmaps/flubidux.png"
-        },
-        {
-          "type": "desktop",
-          "source": "fragfinn",
-          "osIconPath": "/usr/share/pixmaps/fragfinn.png"
-        },
-        {
-          "type": "desktop",
-          "source": "google-translate",
-          "osIconPath": "/usr/share/pixmaps/google-translate.png"
-        },
-        {
-          "type": "desktop",
-          "source": "internet-abc",
-          "osIconPath": "/usr/share/pixmaps/google-translate.png"
-        },
-        {
-          "type": "desktop",
-          "source": "kindersuchmaschine",
-          "osIconPath": "/usr/share/pixmaps/kindersuchmaschine.png"
-        },
-        {
-          "type": "desktop",
-          "source": "kinderwald",
-          "osIconPath": "/usr/share/pixmaps/kinderwald.png"
-        },
-        {
-          "type": "desktop",
-          "source": "kinderweltmusik",
-          "osIconPath": "/usr/share/pixmaps/kinderweltmusik.png"
-        },
-        {
-          "type": "desktop",
-          "source": "kinderzeitmaschine",
-          "osIconPath": "/usr/share/pixmaps/kinderzeitmaschine.png"
-        },
-        {
-          "type": "desktop",
-          "source": "lerntrix",
-          "osIconPath": "/usr/share/pixmaps/lerntrix.png"
-        },
-        {
-          "type": "desktop",
-          "source": "map-geo-admin",
-          "osIconPath": "/usr/share/pixmaps/map-geo-admin.png"
-        },
-        {
-          "type": "desktop",
-          "source": "mathe-aktiv-division",
-          "osIconPath": "/usr/share/pixmaps/mathe-aktiv-division.png"
-        },
-        {
-          "type": "desktop",
-          "source": "mathe-aktiv-insaetze",
-          "osIconPath": "/usr/share/pixmapsmathe-aktiv-insaetze/.png"
-        },
-        {
-          "type": "desktop",
-          "source": "mathe-akiv-multiplikation",
-          "osIconPath": "/usr/share/pixmaps/mahte-aktiv-multiplikation.png"
-        },
-        {
-          "type": "desktop",
-          "source": "mathe-im-netz",
-          "osIconPath": "/usr/share/pixmaps/mahte-im-netz.png"
-        },
-        {
-          "type": "desktop",
-          "source": "minibooks",
-          "osIconPath": "/usr/share/pixmaps/minibooks.png"
-        },
-        {
-          "type": "desktop",
-          "source": "musikwissenschaften",
-          "osIconPath": "/usr/share/pixmaps/musikwissenschaften.png"
-        },
-        {
-          "type": "desktop",
-          "source": "mymoment",
-          "osIconPath": "/usr/share/pixmaps/mymoment.png"
-        },
-        {
-          "type": "desktop",
-          "source": "netcity",
-          "osIconPath": "/usr/share/pixmaps/netcity.png"
-        },
-        {
-          "type": "desktop",
-          "source": "netla",
-          "osIconPath": "/usr/share/pixmaps/netla.png"
-        },
-        {
-          "type": "desktop",
-          "source": "notenmax",
-          "osIconPath": "/usr/share/pixmaps/notenmax.png"
-        },
-        {
-          "type": "desktop",
-          "source": "openstreetmap",
-          "osIconPath": "/usr/share/pixmaps/openstreetmap.png"
-        },
-        {
-          "type": "desktop",
-          "source": "openthesaurus",
-          "osIconPath": "/usr/share/pixmaps/openthesaurus.png"
-        },
-        {
-          "type": "desktop",
-          "source": "orthografietrainer",
-          "osIconPath": "/usr/share/pixmaps/orthografietrainer.png"
-        },
-        {
-          "type": "desktop",
-          "source": "phet",
-          "osIconPath": "/usr/share/pixmaps/phet.png"
-        },
-        {
-          "type": "desktop",
-          "source": "schatz-der-kulturen",
-          "osIconPath": "/usr/share/pixmaps/schatz-der-kulturen.png"
-        },
-        {
-          "type": "desktop",
-          "source": "sikore",
-          "osIconPath": "/usr/share/pixmaps/sikoe.png"
-        },
-        {
-          "type": "desktop",
-          "source": "sumopaint",
-          "osIconPath": "/usr/share/pixmaps/sumopaint.png"
-        },
-        {
-          "type": "desktop",
-          "source": "unserkoerper",
-          "osIconPath": "/usr/share/pixmaps/unserkoerper.png"
         }
       ]
     },
@@ -1567,6 +1402,171 @@
       },
       "osIconPath": "extra/icons/apps/webapps.png",
       "items": [
+        {
+          "type": "desktop",
+          "source": "antolin",
+          "osIconPath": "/usr/share/pixmaps/antolin.png"
+        },
+        {
+          "type": "desktop",
+          "source": "blindekuh",
+          "osIconPath": "/usr/share/pixmaps/blindekuh.png"
+        },
+        {
+          "type": "desktop",
+          "source": "bodenreise",
+          "osIconPath": "/usr/share/pixmaps/bodenreise.png"
+        },
+        {
+          "type": "desktop",
+          "source": "cool-driving",
+          "osIconPath": "/usr/share/pixmaps/cool-driving.png"
+        },
+        {
+          "type": "desktop",
+          "source": "duden",
+          "osIconPath": "/usr/share/pixmaps/duden.png"
+        },
+        {
+          "type": "desktop",
+          "source": "flubidux",
+          "osIconPath": "/usr/share/pixmaps/flubidux.png"
+        },
+        {
+          "type": "desktop",
+          "source": "fragfinn",
+          "osIconPath": "/usr/share/pixmaps/fragfinn.png"
+        },
+        {
+          "type": "desktop",
+          "source": "google-translate",
+          "osIconPath": "/usr/share/pixmaps/google-translate.png"
+        },
+        {
+          "type": "desktop",
+          "source": "internet-abc",
+          "osIconPath": "/usr/share/pixmaps/google-translate.png"
+        },
+        {
+          "type": "desktop",
+          "source": "kindersuchmaschine",
+          "osIconPath": "/usr/share/pixmaps/kindersuchmaschine.png"
+        },
+        {
+          "type": "desktop",
+          "source": "kinderwald",
+          "osIconPath": "/usr/share/pixmaps/kinderwald.png"
+        },
+        {
+          "type": "desktop",
+          "source": "kinderweltmusik",
+          "osIconPath": "/usr/share/pixmaps/kinderweltmusik.png"
+        },
+        {
+          "type": "desktop",
+          "source": "kinderzeitmaschine",
+          "osIconPath": "/usr/share/pixmaps/kinderzeitmaschine.png"
+        },
+        {
+          "type": "desktop",
+          "source": "lerntrix",
+          "osIconPath": "/usr/share/pixmaps/lerntrix.png"
+        },
+        {
+          "type": "desktop",
+          "source": "map-geo-admin",
+          "osIconPath": "/usr/share/pixmaps/map-geo-admin.png"
+        },
+        {
+          "type": "desktop",
+          "source": "mathe-aktiv-division",
+          "osIconPath": "/usr/share/pixmaps/mathe-aktiv-division.png"
+        },
+        {
+          "type": "desktop",
+          "source": "mathe-aktiv-insaetze",
+          "osIconPath": "/usr/share/pixmapsmathe-aktiv-insaetze/.png"
+        },
+        {
+          "type": "desktop",
+          "source": "mathe-akiv-multiplikation",
+          "osIconPath": "/usr/share/pixmaps/mahte-aktiv-multiplikation.png"
+        },
+        {
+          "type": "desktop",
+          "source": "mathe-im-netz",
+          "osIconPath": "/usr/share/pixmaps/mahte-im-netz.png"
+        },
+        {
+          "type": "desktop",
+          "source": "minibooks",
+          "osIconPath": "/usr/share/pixmaps/minibooks.png"
+        },
+        {
+          "type": "desktop",
+          "source": "musikwissenschaften",
+          "osIconPath": "/usr/share/pixmaps/musikwissenschaften.png"
+        },
+        {
+          "type": "desktop",
+          "source": "mymoment",
+          "osIconPath": "/usr/share/pixmaps/mymoment.png"
+        },
+        {
+          "type": "desktop",
+          "source": "netcity",
+          "osIconPath": "/usr/share/pixmaps/netcity.png"
+        },
+        {
+          "type": "desktop",
+          "source": "netla",
+          "osIconPath": "/usr/share/pixmaps/netla.png"
+        },
+        {
+          "type": "desktop",
+          "source": "notenmax",
+          "osIconPath": "/usr/share/pixmaps/notenmax.png"
+        },
+        {
+          "type": "desktop",
+          "source": "openstreetmap",
+          "osIconPath": "/usr/share/pixmaps/openstreetmap.png"
+        },
+        {
+          "type": "desktop",
+          "source": "openthesaurus",
+          "osIconPath": "/usr/share/pixmaps/openthesaurus.png"
+        },
+        {
+          "type": "desktop",
+          "source": "orthografietrainer",
+          "osIconPath": "/usr/share/pixmaps/orthografietrainer.png"
+        },
+        {
+          "type": "desktop",
+          "source": "phet",
+          "osIconPath": "/usr/share/pixmaps/phet.png"
+        },
+        {
+          "type": "desktop",
+          "source": "schatz-der-kulturen",
+          "osIconPath": "/usr/share/pixmaps/schatz-der-kulturen.png"
+        },
+        {
+          "type": "desktop",
+          "source": "sikore",
+          "osIconPath": "/usr/share/pixmaps/sikoe.png"
+        },
+        {
+          "type": "desktop",
+          "source": "sumopaint",
+          "osIconPath": "/usr/share/pixmaps/sumopaint.png"
+        },
+        {
+          "type": "desktop",
+          "source": "unserkoerper",
+          "osIconPath": "/usr/share/pixmaps/unserkoerper.png"
+        },
         {
           "type": "desktop",
           "source": "walma-screenshot"
