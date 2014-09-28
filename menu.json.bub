@@ -582,13 +582,108 @@
       "items": [
         {
           "type": "desktop",
-          "source": "gcompris",
-          "name": {
-            "en": "GCompris-educational software suite",
-            "fi": "GCompris-opetuspelit",
-            "sv": "GCompris-pedagogiksvit",
-            "de": "GCompris"
-          }
+          "source": "newworld",
+          "osIconPath": "/usr/share/pixmaps/newworld.png"
+        },
+        {
+          "type": "desktop",
+          "source": "newworld1",
+          "osIconPath": "/usr/share/pixmaps/newworld1.png"
+        },
+        {
+          "type": "desktop",
+          "source": "newworld2",
+          "osIconPath": "/usr/share/pixmaps/newworld2.png"
+        },
+        {
+          "type": "desktop",
+          "source": "luegeloselaese",
+          "osIconPath": "/usr/share/pixmaps/lll.png"
+        },
+        {
+          "type": "desktop",
+          "source": "blitzrechnen",
+          "osIconPath": "/usr/share/pixmaps/blitzrechnen.png"
+        },
+        {
+          "type": "desktop",
+          "source": "millefeuilles",
+          "osIconPath": "/usr/share/pixmaps/mf.png"
+        },
+        {
+          "type": "desktop",
+          "source": "millefeuilles3.1",
+          "osIconPath": "/usr/share/pixmaps/mf31.png"
+        },
+        {
+          "type": "desktop",
+          "source": "millefeuilles3.2",
+          "osIconPath": "/usr/share/pixmaps/mf32.png"
+        },
+        {
+          "type": "desktop",
+          "source": "millefeuilles3.3",
+          "osIconPath": "/usr/share/pixmaps/mf33.png"
+        },
+        {
+          "type": "desktop",
+          "source": "millefeuilles4.1",
+          "osIconPath": "/usr/share/pixmaps/mf41.png"
+        },
+        {
+          "type": "desktop",
+          "source": "millefeuilles4.2",
+          "osIconPath": "/usr/share/pixmaps/mf42.png"
+        },
+        {
+          "type": "desktop",
+          "source": "millefeuilles4.3",
+          "osIconPath": "/usr/share/pixmaps/mf43.png"
+        },
+        {
+          "type": "desktop",
+          "source": "millefeuilles5.1",
+          "osIconPath": "/usr/share/pixmaps/mf51.png"
+        },
+        {
+          "type": "desktop",
+          "source": "millefeuilles5.2",
+          "osIconPath": "/usr/share/pixmaps/mf52.png"
+        },
+        {
+          "type": "desktop",
+          "source": "logisch",
+          "osIconPath": "/usr/share/pixmaps/logisch.png"
+        },
+        {
+          "type": "desktop",
+          "source": "logisch1",
+          "osIconPath": "/usr/share/pixmaps/logisch1.png"
+        },
+        {
+          "type": "desktop",
+          "source": "logisch2",
+          "osIconPath": "/usr/share/pixmaps/logisch2.png"
+        },
+        {
+          "type": "desktop",
+          "source": "logisch3",
+          "osIconPath": "/usr/share/pixmaps/logisch3.png"
+        },
+        {
+          "type": "desktop",
+          "source": "logisch4",
+          "osIconPath": "/usr/share/pixmaps/logisch4.png"
+        },
+        {
+          "type": "desktop",
+          "source": "logisch5",
+          "osIconPath": "/usr/share/pixmaps/logisch5.png"
+        },
+        {
+          "type": "desktop",
+          "source": "logisch6",
+          "osIconPath": "/usr/share/pixmaps/logisch6.png"
         },
         {
           "type": "desktop",
@@ -612,6 +707,16 @@
             "fi": "KBruch-murtoluvut",
             "sv": "KBruch-bråktal",
             "de": "KBruch - Rechnen mit Brüchen"
+          }
+        },
+        {
+          "type": "desktop",
+          "source": "gcompris",
+          "name": {
+            "en": "GCompris-educational software suite",
+            "fi": "GCompris-opetuspelit",
+            "sv": "GCompris-pedagogiksvit",
+            "de": "GCompris"
           }
         },
         {
@@ -799,223 +904,168 @@
         },
         {
           "type": "desktop",
-          "source": "newworld"
+          "source": "antolin",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "newworld1"
+          "source": "blindekuh",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "newworld2"
+          "source": "bodenreise",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "luegeloselaese"
+          "source": "cool-driving",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "blitzrechnen"
+          "source": "duden",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "millefeuilles"
+          "source": "flubidux",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "millefeuilles3.1"
+          "source": "fragfinn",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "millefeuilles3.2"
+          "source": "google-translate",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "millefeuilles3.3"
+          "source": "internet-abc",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "millefeuilles4.1"
+          "source": "kindersuchmaschine",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "millefeuilles4.2"
+          "source": "kinderwald",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "millefeuilles"
+          "source": "kinderweltmusik",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "millefeuilles4.3"
+          "source": "kinderzeitmaschine",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "millefeuilles5.1"
+          "source": "lerntrix",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "millefeuilles5.2"
+          "source": "map-geo-admin",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "logisch"
+          "source": "mathe-aktiv-division",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "logisch1"
+          "source": "mathe-aktiv-insaetze",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "logisch2"
+          "source": "mathe-akiv-multiplikation",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "logisch3"
+          "source": "mathe-im-netz",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "logisch4"
+          "source": "minibooks",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "logisch5"
+          "source": "musikwissenschaften",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "logisch6"
+          "source": "mymoment",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "antolin"
+          "source": "netcity",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "blindekuh"
+          "source": "netla",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "bodenreise"
+          "source": "notenmax",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "cool-driving"
+          "source": "openstreetmap",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "duden"
+          "source": "openthesaurus",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "flubidux"
+          "source": "orthografietrainer",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "fragfinn"
+          "source": "phet",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "google-translate"
+          "source": "schatz-der-kulturen",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "internet-abc"
+          "source": "sikore",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "kindersuchmaschine"
+          "source": "sumopaint",
+          "osIconPath": "/usr/share/pixmaps/.png"
         },
         {
           "type": "desktop",
-          "source": "kinderwald"
-        },
-        {
-          "type": "desktop",
-          "source": "kinderweltmusik"
-        },
-        {
-          "type": "desktop",
-          "source": "kinderzeitmaschine"
-        },
-        {
-          "type": "desktop",
-          "source": "lerntrix"
-        },
-        {
-          "type": "desktop",
-          "source": "map-geo-admin"
-        },
-        {
-          "type": "desktop",
-          "source": "mathe-aktiv-division"
-        },
-        {
-          "type": "desktop",
-          "source": "mathe-aktiv-insaetze"
-        },
-        {
-          "type": "desktop",
-          "source": "mathe-akiv-multiplikation"
-        },
-        {
-          "type": "desktop",
-          "source": "mathe-im-netz"
-        },
-        {
-          "type": "desktop",
-          "source": "minibooks"
-        },
-        {
-          "type": "desktop",
-          "source": "musikwissenschaften"
-        },
-        {
-          "type": "desktop",
-          "source": "mymoment"
-        },
-        {
-          "type": "desktop",
-          "source": "netcity"
-        },
-        {
-          "type": "desktop",
-          "source": "netla"
-        },
-        {
-          "type": "desktop",
-          "source": "notenmax"
-        },
-        {
-          "type": "desktop",
-          "source": "openstreetmap"
-        },
-        {
-          "type": "desktop",
-          "source": "openthesaurus"
-        },
-        {
-          "type": "desktop",
-          "source": "orthografietrainer"
-        },
-        {
-          "type": "desktop",
-          "source": "phet"
-        },
-        {
-          "type": "desktop",
-          "source": "schatz-der-kulturen"
-        },
-        {
-          "type": "desktop",
-          "source": "sikore"
-        },
-        {
-          "type": "desktop",
-          "source": "sumopaint"
-        },
-        {
-          "type": "desktop",
-          "source": "unserkoerper"
+          "source": "unserkoerper",
+          "osIconPath": "/usr/share/pixmaps/.png"
         }
       ]
     },
