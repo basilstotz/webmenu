@@ -583,107 +583,212 @@
         {
           "type": "desktop",
           "source": "newworld",
-          "osIconPath": "/usr/share/pixmaps/newworld.png"
+          "osIconPath": "/usr/share/pixmaps/newworld.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "newworld1",
-          "osIconPath": "/usr/share/pixmaps/newworld1.png"
+          "osIconPath": "/usr/share/pixmaps/newworld1.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "newworld2",
-          "osIconPath": "/usr/share/pixmaps/newworld2.png"
+          "osIconPath": "/usr/share/pixmaps/newworld2.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "luegeloselaese",
-          "osIconPath": "/usr/share/pixmaps/lll.png"
+          "osIconPath": "/usr/share/pixmaps/lll.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "blitzrechnen",
-          "osIconPath": "/usr/share/pixmaps/blitzrechnen.png"
+          "osIconPath": "/usr/share/pixmaps/blitzrechnen.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "millefeuilles",
-          "osIconPath": "/usr/share/pixmaps/mf.png"
+          "osIconPath": "/usr/share/pixmaps/mf.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "millefeuilles3.1",
-          "osIconPath": "/usr/share/pixmaps/mf31.png"
+          "osIconPath": "/usr/share/pixmaps/mf31.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "millefeuilles3.2",
-          "osIconPath": "/usr/share/pixmaps/mf32.png"
+          "osIconPath": "/usr/share/pixmaps/mf32.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "millefeuilles3.3",
-          "osIconPath": "/usr/share/pixmaps/mf33.png"
+          "osIconPath": "/usr/share/pixmaps/mf33.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "millefeuilles4.1",
-          "osIconPath": "/usr/share/pixmaps/mf41.png"
+          "osIconPath": "/usr/share/pixmaps/mf41.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "millefeuilles4.2",
-          "osIconPath": "/usr/share/pixmaps/mf42.png"
+          "osIconPath": "/usr/share/pixmaps/mf42.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "millefeuilles4.3",
-          "osIconPath": "/usr/share/pixmaps/mf43.png"
+          "osIconPath": "/usr/share/pixmaps/mf43.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "millefeuilles5.1",
-          "osIconPath": "/usr/share/pixmaps/mf51.png"
+          "osIconPath": "/usr/share/pixmaps/mf51.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "millefeuilles5.2",
-          "osIconPath": "/usr/share/pixmaps/mf52.png"
+          "osIconPath": "/usr/share/pixmaps/mf52.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "logisch",
-          "osIconPath": "/usr/share/pixmaps/logisch.png"
+          "osIconPath": "/usr/share/pixmaps/logisch.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "logisch1",
-          "osIconPath": "/usr/share/pixmaps/logisch1.png"
+          "osIconPath": "/usr/share/pixmaps/logisch1.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "logisch2",
-          "osIconPath": "/usr/share/pixmaps/logisch2.png"
+          "osIconPath": "/usr/share/pixmaps/logisch2.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "logisch3",
-          "osIconPath": "/usr/share/pixmaps/logisch3.png"
+          "osIconPath": "/usr/share/pixmaps/logisch3.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "logisch4",
-          "osIconPath": "/usr/share/pixmaps/logisch4.png"
+          "osIconPath": "/usr/share/pixmaps/logisch4.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "logisch5",
-          "osIconPath": "/usr/share/pixmaps/logisch5.png"
+          "osIconPath": "/usr/share/pixmaps/logisch5.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "logisch6",
-          "osIconPath": "/usr/share/pixmaps/logisch6.png"
+          "osIconPath": "/usr/share/pixmaps/logisch6.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
@@ -694,7 +799,12 @@
             "fi": "TuxMath-matikkapeli",
             "sv": "TuxMath-matematikspel",
             "de": "Tuxmath Mathespiel"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
@@ -707,7 +817,12 @@
             "fi": "KBruch-murtoluvut",
             "sv": "KBruch-bråktal",
             "de": "KBruch - Rechnen mit Brüchen"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
@@ -717,7 +832,12 @@
             "fi": "GCompris-opetuspelit",
             "sv": "GCompris-pedagogiksvit",
             "de": "GCompris"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
@@ -725,7 +845,12 @@
           "keywords": [
             "digabi"
           ],
-          "name": "Geogebra"
+          "name": "Geogebra",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
@@ -735,7 +860,12 @@
             "fi": "KmPlot-kuvaajat",
             "sv": "KmPlot",
             "de": "KmPlot"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
@@ -745,7 +875,12 @@
             "fi": "Marble-maapallo",
             "sv": "Marble-jordglob",
             "de": "Marble virtueller Globus"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
@@ -755,7 +890,12 @@
             "fi": "KGeography-maantieto",
             "sv": "KGeography-geografi",
             "de": "Kgeography"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
@@ -765,7 +905,12 @@
             "fi": "Anagrammit",
             "sv": "Anagram",
             "de": "Anagramme"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
@@ -778,6 +923,11 @@
           },
           "command": [
             "kwordquiz"
+          ],
+          "keywords": [
+            "lp21",
+            "",
+            ""
           ]
         },
         {
@@ -791,6 +941,11 @@
           },
           "command": [
             "khangman"
+          ],
+          "keywords": [
+            "lp21",
+            "",
+            ""
           ]
         },
         {
@@ -804,6 +959,11 @@
           },
           "command": [
             "ktouch"
+          ],
+          "keywords": [
+            "lp21",
+            "",
+            ""
           ]
         },
         {
@@ -815,7 +975,12 @@
             "fi": "Avaruussimulaattori",
             "sv": "Rymdsimulator",
             "de": "Celestia Weltraum Simulator"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
@@ -826,7 +991,12 @@
             "fi": "Stellarium-planetaario",
             "sv": "Stellarium-planetarium",
             "de": "Stellaruim-Planetarium"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
@@ -839,6 +1009,11 @@
           },
           "command": [
             "kstars"
+          ],
+          "keywords": [
+            "lp21",
+            "",
+            ""
           ]
         },
         {
@@ -852,6 +1027,11 @@
           },
           "command": [
             "step"
+          ],
+          "keywords": [
+            "lp21",
+            "",
+            ""
           ]
         },
         {
@@ -859,14 +1039,24 @@
           "keywords": [
             "digabi"
           ],
-          "source": "LoggerPro"
+          "source": "LoggerPro",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "keywords": [
             "digabi"
           ],
-          "source": "wxmaxima"
+          "source": "wxmaxima",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
@@ -877,7 +1067,12 @@
             "fi": "3D-Molekyylit",
             "sv": "3D-Molekyler",
             "de": "3D-Moleküle"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
@@ -890,6 +1085,11 @@
           },
           "command": [
             "kalzium"
+          ],
+          "keywords": [
+            "lp21",
+            "",
+            ""
           ]
         },
         {
@@ -900,7 +1100,12 @@
             "fi": "Mandelbulber",
             "sv": "Mandelbulber",
             "de": "Mandelbulber"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -1256,7 +1461,12 @@
             "fi": "Korvanharjoitus-ohjelma",
             "sv": "Gehör-övningar",
             "de": "Hörbildung"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
@@ -1266,7 +1476,12 @@
             "fi": "Nuotinnusohjelma",
             "sv": "Notering",
             "de": "Musik-Notensatz"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
@@ -1276,7 +1491,12 @@
             "fi": "Denemo-nuotinnus",
             "sv": "Denemo-notering",
             "de": "Denemo Notizen"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
@@ -1286,7 +1506,12 @@
             "fi": "Hydrogen-rumpukone",
             "sv": "Hydrogen-trummaskin",
             "de": "Hydrogen Drum Machine"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
@@ -1296,7 +1521,12 @@
             "fi": "Rosegarden-sekvensseri",
             "sv": "Rosegarden-sekvenser",
             "de": "Rosegarden Sequencer"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
@@ -1307,7 +1537,12 @@
             "sv": "Noter för gitarr",
             "de": "Tabulaturen für Gitarre"
           },
-          "osIconPath": "extra/icons/apps/overlord59-tux-guitar-1434.png"
+          "osIconPath": "extra/icons/apps/overlord59-tux-guitar-1434.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
@@ -1317,7 +1552,12 @@
             "fi": "Viritinohjelma",
             "sv": "Stämmningsprogram",
             "de": "Stimmprogramm"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
