@@ -586,8 +586,11 @@
           "osIconPath": "/usr/share/pixmaps/newworld.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z2",
+            "sprachen",
+            "englisch",
+            "lesen",
+            "hören"
           ]
         },
         {
@@ -596,8 +599,11 @@
           "osIconPath": "/usr/share/pixmaps/newworld1.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z2",
+            "sprachen",
+            "englisch",
+            "lesen",
+            "hören"
           ]
         },
         {
@@ -606,8 +612,10 @@
           "osIconPath": "/usr/share/pixmaps/newworld2.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z2",
+            "sprachen",
+            "lesen",
+            "hören"
           ]
         },
         {
@@ -616,8 +624,11 @@
           "osIconPath": "/usr/share/pixmaps/lll.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z1",
+            "sprachen",
+            "deutsch",
+            "lesen",
+            "hören"
           ]
         },
         {
@@ -626,8 +637,11 @@
           "osIconPath": "/usr/share/pixmaps/blitzrechnen.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z1",
+            "z2",
+            "mathematik",
+            "variable",
+            "zahl"
           ]
         },
         {
@@ -636,8 +650,12 @@
           "osIconPath": "/usr/share/pixmaps/mf.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z1",
+            "z2",
+            "sprachen",
+            "französisch",
+            "lesen",
+            "hören"
           ]
         },
         {
@@ -646,8 +664,11 @@
           "osIconPath": "/usr/share/pixmaps/mf31.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z1",
+            "sprachen",
+            "französisch",
+            "lesen",
+            "hören"
           ]
         },
         {
@@ -656,8 +677,11 @@
           "osIconPath": "/usr/share/pixmaps/mf32.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z1",
+            "sprachen",
+            "französisch",
+            "lesen",
+            "hören"
           ]
         },
         {
@@ -666,8 +690,11 @@
           "osIconPath": "/usr/share/pixmaps/mf33.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z1",
+            "sprachen",
+            "französisch",
+            "lesen",
+            "hören"
           ]
         },
         {
@@ -676,8 +703,11 @@
           "osIconPath": "/usr/share/pixmaps/mf41.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z2",
+            "sprachen",
+            "französisch",
+            "lesen",
+            "hören"
           ]
         },
         {
@@ -686,8 +716,11 @@
           "osIconPath": "/usr/share/pixmaps/mf42.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z2",
+            "sprachen",
+            "französisch",
+            "lesen",
+            "hören"
           ]
         },
         {
@@ -696,8 +729,11 @@
           "osIconPath": "/usr/share/pixmaps/mf43.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z2",
+            "sprachen",
+            "französisch",
+            "lesen",
+            "hören"
           ]
         },
         {
@@ -706,8 +742,11 @@
           "osIconPath": "/usr/share/pixmaps/mf51.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z2",
+            "sprachen",
+            "französisch",
+            "lesen",
+            "hören"
           ]
         },
         {
@@ -716,8 +755,11 @@
           "osIconPath": "/usr/share/pixmaps/mf52.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z2",
+            "sprachen",
+            "französisch",
+            "lesen",
+            "hören"
           ]
         },
         {
@@ -726,8 +768,11 @@
           "osIconPath": "/usr/share/pixmaps/logisch.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z1",
+            "z2",
+            "mathematik",
+            "variable",
+            "zahl"
           ]
         },
         {
@@ -736,8 +781,10 @@
           "osIconPath": "/usr/share/pixmaps/logisch1.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z1",
+            "mathematik",
+            "variable",
+            "zahl"
           ]
         },
         {
@@ -746,8 +793,10 @@
           "osIconPath": "/usr/share/pixmaps/logisch2.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z1",
+            "mathematik",
+            "variable",
+            "zahl"
           ]
         },
         {
@@ -756,8 +805,10 @@
           "osIconPath": "/usr/share/pixmaps/logisch3.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z1",
+            "mathematik",
+            "variable",
+            "zahl"
           ]
         },
         {
@@ -766,8 +817,10 @@
           "osIconPath": "/usr/share/pixmaps/logisch4.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z2",
+            "mathematik",
+            "variable",
+            "zahl"
           ]
         },
         {
@@ -776,8 +829,10 @@
           "osIconPath": "/usr/share/pixmaps/logisch5.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z2",
+            "mathematik",
+            "variable",
+            "zahl"
           ]
         },
         {
@@ -786,8 +841,10 @@
           "osIconPath": "/usr/share/pixmaps/logisch6.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z2",
+            "mathematik",
+            "variable",
+            "zahl"
           ]
         },
         {
@@ -802,8 +859,11 @@
           },
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z1",
+            "z2",
+            "mathematik",
+            "variable",
+            "zahl"
           ]
         },
         {
@@ -820,8 +880,10 @@
           },
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z2",
+            "mathematik",
+            "variable",
+            "zahl"
           ]
         },
         {
@@ -842,11 +904,9 @@
         {
           "type": "desktop",
           "source": "geogebra",
-          "keywords": [
-            "digabi"
-          ],
           "name": "Geogebra",
           "keywords": [
+            "digabi",
             "lp21",
             "",
             ""
@@ -1036,11 +1096,9 @@
         },
         {
           "type": "desktop",
+         "source": "LoggerPro",
           "keywords": [
-            "digabi"
-          ],
-          "source": "LoggerPro",
-          "keywords": [
+            "digabi",
             "lp21",
             "",
             ""
@@ -1048,11 +1106,9 @@
         },
         {
           "type": "desktop",
-          "keywords": [
-            "digabi"
-          ],
           "source": "wxmaxima",
           "keywords": [
+            "digabi",
             "lp21",
             "",
             ""
@@ -1645,167 +1701,368 @@
         {
           "type": "desktop",
           "source": "antolin",
-          "osIconPath": "/usr/share/pixmaps/antolin.png"
+          "osIconPath": "/usr/share/pixmaps/antolin.png",
+          "keywords": [
+            "lp21",
+            "sprachen",
+            "deutsch",
+            "lesen"
+          ]
         },
         {
           "type": "desktop",
           "source": "blindekuh",
-          "osIconPath": "/usr/share/pixmaps/blindekuh.png"
+          "osIconPath": "/usr/share/pixmaps/blindekuh.png",
+          "keywords": [
+            "lp21",
+            "z2", 
+            "z3",
+            "ict",
+            "medien"
+          ]
         },
         {
           "type": "desktop",
           "source": "bodenreise",
-          "osIconPath": "/usr/share/pixmaps/bodenreise.png"
+          "osIconPath": "/usr/share/pixmaps/bodenreise.png",
+          "keywords": [
+            "lp21",
+            "z1",
+            "z2",
+            "nmg",
+            "natur",
+            "biologie"
+          ]
         },
         {
           "type": "desktop",
           "source": "cool-driving",
-          "osIconPath": "/usr/share/pixmaps/cool-driving.png"
+          "osIconPath": "/usr/share/pixmaps/cool-driving.png",
+          "keywords": [
+            "lp21",
+            "z2",
+            "nmg",
+            "verkehr",
+            "technik"
+          ]
         },
         {
           "type": "desktop",
           "source": "duden",
-          "osIconPath": "/usr/share/pixmaps/duden.png"
+          "osIconPath": "/usr/share/pixmaps/duden.png",
+          "keywords": [
+            "lp21",
+            "z2",
+            "z3",
+            "sprachen",
+            "deutsch",
+            "medien"
+          ]
         },
         {
           "type": "desktop",
           "source": "flubidux",
-          "osIconPath": "/usr/share/pixmaps/flubidux.png"
+          "osIconPath": "/usr/share/pixmaps/flubidux.png",
+          "keywords": [
+            "lp21",
+            "musik",
+            "hören"
+          ]
         },
         {
           "type": "desktop",
           "source": "fragfinn",
-          "osIconPath": "/usr/share/pixmaps/fragfinn.png"
+          "osIconPath": "/usr/share/pixmaps/fragfinn.png",
+          "keywords": [
+            "lp21",
+            "z1",
+            "z2",
+            "z3",
+            "ict",
+            "medien"
+          ]
         },
         {
           "type": "desktop",
           "source": "google-translate",
-          "osIconPath": "/usr/share/pixmaps/google-translate.png"
+          "osIconPath": "/usr/share/pixmaps/google-translate.png",
+          "keywords": [
+            "lp21",
+            "z2",
+            "z3",
+            "sprachen",
+            "deutsch",
+            "französisch",
+            "englisch"
+          ]
         },
         {
           "type": "desktop",
           "source": "internet-abc",
-          "osIconPath": "/usr/share/pixmaps/google-translate.png"
+          "osIconPath": "/usr/share/pixmaps/google-translate.png",
+          "keywords": [
+            "lp21",
+            "ict",
+            "medien"
+          ]
         },
         {
           "type": "desktop",
           "source": "kindersuchmaschine",
-          "osIconPath": "/usr/share/pixmaps/kindersuchmaschine.png"
+          "osIconPath": "/usr/share/pixmaps/kindersuchmaschine.png",
+          "keywords": [
+            "lp21",
+            "ict",
+            "medien"
+          ]
         },
         {
           "type": "desktop",
           "source": "kinderwald",
-          "osIconPath": "/usr/share/pixmaps/kinderwald.png"
+          "osIconPath": "/usr/share/pixmaps/kinderwald.png",
+          "keywords": [
+            "lp21",
+            "nmg",
+            "natur",
+            "biolgie"
+          ]
         },
         {
           "type": "desktop",
           "source": "kinderweltmusik",
-          "osIconPath": "/usr/share/pixmaps/kinderweltmusik.png"
+          "osIconPath": "/usr/share/pixmaps/kinderweltmusik.png",
+          "keywords": [
+            "lp21",
+            "musik",
+            "hören",
+            "gesellschaften", 
+            "räume"
+          ]
         },
         {
           "type": "desktop",
           "source": "kinderzeitmaschine",
-          "osIconPath": "/usr/share/pixmaps/kinderzeitmaschine.png"
+          "osIconPath": "/usr/share/pixmaps/kinderzeitmaschine.png",
+          "keywords": [
+            "lp21",
+            "nmg",
+            "gesellschaften",
+            "räume",
+            "geschichte"
+          ]
         },
         {
           "type": "desktop",
           "source": "lerntrix",
-          "osIconPath": "/usr/share/pixmaps/lerntrix.png"
+          "osIconPath": "/usr/share/pixmaps/lerntrix.png",
+          "keywords": [
+            "lp21",
+            "mathematik",
+            "zahl",
+            "variable",
+            "operieren",
+            "benennen"
+          ]
         },
         {
           "type": "desktop",
           "source": "map-geo-admin",
-          "osIconPath": "/usr/share/pixmaps/map-geo-admin.png"
+          "osIconPath": "/usr/share/pixmaps/map-geo-admin.png",
+          "keywords": [
+            "lp21",
+            "nmg",
+            "räume",
+            "geografie"
+          ]
         },
         {
           "type": "desktop",
           "source": "mathe-aktiv-division",
-          "osIconPath": "/usr/share/pixmaps/mathe-aktiv-division.png"
+          "osIconPath": "/usr/share/pixmaps/mathe-aktiv-division.png",
+          "keywords": [
+            "lp21",
+            "z1",
+            "z2",
+            "mathematik",
+            "zahl",
+            "variable"
+          ]
         },
         {
           "type": "desktop",
           "source": "mathe-aktiv-insaetze",
-          "osIconPath": "/usr/share/pixmapsmathe-aktiv-insaetze/.png"
+          "osIconPath": "/usr/share/pixmapsmathe-aktiv-insaetze/.png",
+          "keywords": [
+            "lp21",
+            "z1",
+            "z2",
+            "mathematik",
+            "zahl",
+            "variable"
+          ]
         },
         {
           "type": "desktop",
           "source": "mathe-akiv-multiplikation",
-          "osIconPath": "/usr/share/pixmaps/mahte-aktiv-multiplikation.png"
+          "osIconPath": "/usr/share/pixmaps/mahte-aktiv-multiplikation.png",
+          "keywords": [
+            "lp21",
+            "z1",
+            "z2",
+            "mathematik",
+            "zahl",
+            "variable"
+          ]
         },
         {
           "type": "desktop",
           "source": "mathe-im-netz",
-          "osIconPath": "/usr/share/pixmaps/mahte-im-netz.png"
+          "osIconPath": "/usr/share/pixmaps/mahte-im-netz.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "minibooks",
-          "osIconPath": "/usr/share/pixmaps/minibooks.png"
+          "osIconPath": "/usr/share/pixmaps/minibooks.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "musikwissenschaften",
-          "osIconPath": "/usr/share/pixmaps/musikwissenschaften.png"
+          "osIconPath": "/usr/share/pixmaps/musikwissenschaften.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "mymoment",
-          "osIconPath": "/usr/share/pixmaps/mymoment.png"
+          "osIconPath": "/usr/share/pixmaps/mymoment.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "netcity",
-          "osIconPath": "/usr/share/pixmaps/netcity.png"
+          "osIconPath": "/usr/share/pixmaps/netcity.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "netla",
-          "osIconPath": "/usr/share/pixmaps/netla.png"
+          "osIconPath": "/usr/share/pixmaps/netla.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "notenmax",
-          "osIconPath": "/usr/share/pixmaps/notenmax.png"
+          "osIconPath": "/usr/share/pixmaps/notenmax.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "openstreetmap",
-          "osIconPath": "/usr/share/pixmaps/openstreetmap.png"
+          "osIconPath": "/usr/share/pixmaps/openstreetmap.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "openthesaurus",
-          "osIconPath": "/usr/share/pixmaps/openthesaurus.png"
+          "osIconPath": "/usr/share/pixmaps/openthesaurus.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "orthografietrainer",
-          "osIconPath": "/usr/share/pixmaps/orthografietrainer.png"
+          "osIconPath": "/usr/share/pixmaps/orthografietrainer.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "phet",
-          "osIconPath": "/usr/share/pixmaps/phet.png"
+          "osIconPath": "/usr/share/pixmaps/phet.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "schatz-der-kulturen",
-          "osIconPath": "/usr/share/pixmaps/schatz-der-kulturen.png"
+          "osIconPath": "/usr/share/pixmaps/schatz-der-kulturen.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "sikore",
-          "osIconPath": "/usr/share/pixmaps/sikoe.png"
+          "osIconPath": "/usr/share/pixmaps/sikoe.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "sumopaint",
-          "osIconPath": "/usr/share/pixmaps/sumopaint.png"
+          "osIconPath": "/usr/share/pixmaps/sumopaint.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
           "source": "unserkoerper",
-          "osIconPath": "/usr/share/pixmaps/unserkoerper.png"
+          "osIconPath": "/usr/share/pixmaps/unserkoerper.png",
+          "keywords": [
+            "lp21",
+            "",
+            ""
+          ]
         },
         {
           "type": "desktop",
