@@ -1954,7 +1954,7 @@
           "keywords": [
             "lp21",
             "musik",
-            "hören"
+            "hören",
             "operieren",
             "singen"
           ]
@@ -2118,25 +2118,6 @@
         },
         {
           "type": "web",
-          "name": "Yle Areena",
-          "url": "http://areena.yle.fi",
-          "description": {
-            "en": "Yle Areena-online videos",
-            "fi": "Yle Areena-videopalvelu",
-            "sv": "Yle Arena",
-            "de": "Yle Arena - Online Videos"
-          },
-          "osIconPath": "/usr/share/icons/Faenza/apps/96/me-tv.png"
-        },
-        {
-          "type": "web",
-          "name": "Ylen Elävä arkisto",
-          "url": "http://yle.fi/elavaarkisto/index.html",
-          "description": "Ylen Eläväarkisto-videopalvelu",
-          "osIconPath": "/usr/share/icons/Faenza/apps/96/me-tv.png"
-        },
-        {
-          "type": "web",
           "name": "Sumopaint",
           "url": "http://www.sumopaint.com",
           "description": {
@@ -2167,18 +2148,6 @@
           "name": "Pahvi",
           "url": "http://pahvidemo.opinsys.fi/",
           "osIconPath": "/usr/share/icons/Faenza/mimetypes/96/text-html.png"
-        },
-        {
-          "type": "web",
-          "name": "SanomaPro",
-          "url": "http://sanomapro.fi/",
-          "osIconPath": "/usr/share/icons/Faenza/mimetypes/96/text-html.png"
-        },
-        {
-          "type": "web",
-          "name": "Ekapeli",
-          "url": "http://www.lukimat.fi/lukeminen/materiaalit/ekapeli",
-          "osIconPath": "/usr/share/icons/Faenza/categories/96/gnome-joystick.png"
         },
         {
           "type": "desktop",
