@@ -400,7 +400,16 @@
           "name": {
             "en": "Skype"
           },
-          "osIconPath": "/usr/share/icons/Faenza/apps/32/skype.png"
+          "osIconPath": "/usr/share/icons/Faenza/apps/32/skype.png" ,
+          "keywords": [
+            "lp21",
+            "z3",
+            "z2",
+            "nmg",
+            "raum",
+            "geografie"
+          ]
+
         },
         {
           "type": "desktop",
@@ -1535,8 +1544,8 @@
           },
           "keywords": [
             "lp21",
-            "",
-            ""
+            "musik",
+            "schreiben"
           ]
         },
         {
@@ -1550,8 +1559,8 @@
           },
           "keywords": [
             "lp21",
-            "",
-            ""
+            "musik",
+            "schreiben"
           ]
         },
         {
@@ -1565,8 +1574,8 @@
           },
           "keywords": [
             "lp21",
-            "",
-            ""
+            "musik",
+            "operieren"
           ]
         },
         {
@@ -1580,8 +1589,8 @@
           },
           "keywords": [
             "lp21",
-            "",
-            ""
+            "musik",
+            "operieren"
           ]
         },
         {
@@ -1596,8 +1605,8 @@
           "osIconPath": "extra/icons/apps/overlord59-tux-guitar-1434.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "musik",
+            "operieren"
           ]
         },
         {
@@ -1611,8 +1620,8 @@
           },
           "keywords": [
             "lp21",
-            "",
-            ""
+            "musik",
+            "operieren"
           ]
         },
         {
@@ -1930,8 +1939,12 @@
           "osIconPath": "/usr/share/pixmaps/minibooks.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "sprachen",
+            "deutsch",
+            "französisch",
+            "englisch",
+            "schreiben",
+            "operieren"
           ]
         },
         {
@@ -1940,8 +1953,10 @@
           "osIconPath": "/usr/share/pixmaps/musikwissenschaften.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "musik",
+            "hören"
+            "operieren",
+            "singen"
           ]
         },
         {
@@ -1950,8 +1965,10 @@
           "osIconPath": "/usr/share/pixmaps/mymoment.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "sprachen",
+            "deutsch",
+            "lesen",
+            "schreiben"
           ]
         },
         {
@@ -1960,8 +1977,9 @@
           "osIconPath": "/usr/share/pixmaps/netcity.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "nmg",
+            "ict",
+            "medien"
           ]
         },
         {
@@ -1970,8 +1988,8 @@
           "osIconPath": "/usr/share/pixmaps/netla.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "ict",
+            "medien"
           ]
         },
         {
@@ -1980,8 +1998,10 @@
           "osIconPath": "/usr/share/pixmaps/notenmax.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "musik",
+            "hören",
+            "operieren",
+            "singen"
           ]
         },
         {
@@ -1990,8 +2010,9 @@
           "osIconPath": "/usr/share/pixmaps/openstreetmap.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "nmg",
+            "räume",
+            "geografie"
           ]
         },
         {
@@ -2000,8 +2021,8 @@
           "osIconPath": "/usr/share/pixmaps/openthesaurus.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "sprachen",
+            "deusch"
           ]
         },
         {
@@ -2010,8 +2031,8 @@
           "osIconPath": "/usr/share/pixmaps/orthografietrainer.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "sprachen",
+            "deutsch"
           ]
         },
         {
@@ -2020,8 +2041,8 @@
           "osIconPath": "/usr/share/pixmaps/phet.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "nmg",
+            "physik"
           ]
         },
         {
@@ -2030,8 +2051,9 @@
           "osIconPath": "/usr/share/pixmaps/schatz-der-kulturen.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "nmg",
+            "gesellschaften",
+            "räume"
           ]
         },
         {
@@ -2040,8 +2062,9 @@
           "osIconPath": "/usr/share/pixmaps/sikoe.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "mathematik",
+            "zahl",
+            "variable"
           ]
         },
         {
@@ -2050,8 +2073,8 @@
           "osIconPath": "/usr/share/pixmaps/sumopaint.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "gestalten",
+            "zeichnen"
           ]
         },
         {
@@ -2060,8 +2083,9 @@
           "osIconPath": "/usr/share/pixmaps/unserkoerper.png",
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z1",
+            "körper",
+            "biologie"
           ]
         },
         {
