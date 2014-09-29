@@ -153,7 +153,13 @@
             "fi": "Tuxpaint-piirto-ohjelma",
             "sv": "Tuxpaint",
             "de": "Tuxpaint"
-          }
+          } ,
+          "keywords": [
+            "lp21",
+            "z1",
+            "gestalten",
+            "zeichnen"
+          ]
         },
         {
           "type": "desktop",
@@ -163,7 +169,13 @@
             "fi": "MyPaint-taideohjelma",
             "sv": "MyPaint",
             "de": "MyPaint"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "z2",
+            "gestalten",
+            "zeichnen"
+          ]
         },
         {
           "type": "desktop",
@@ -177,7 +189,13 @@
             "fi": "Gimp-kuvankäsittely",
             "sv": "Gimp",
             "de": "Gimp"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "z3",
+            "gestalten",
+            "zeichnen"
+          ]
         },
         {
           "type": "desktop",
@@ -238,7 +256,13 @@
             "fi": "Inkscape-vektorigrafiikka",
             "sv": "Inkscape-vektorgrafik",
             "de": "Inkscape-Vektorgrafik"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "z3",
+            "gestalten",
+            "zeichnen"
+          ]
         },
         {
           "type": "desktop",
@@ -281,7 +305,13 @@
             "fi": "Blender-3D-mallinnusohjelma",
             "sv": "Blender-3D-modellering",
             "de": "Blender-3D-Modellierung"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "z3",
+            "gestalten",
+            "zeichnen"
+          ]
         },
         {
           "type": "desktop",
@@ -290,7 +320,12 @@
             "fi": "Photofilmstrip-kuvaesitys",
             "sv": "Photofilmstrip",
             "de": "Photofilmstrip"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "gestalten",
+            "zeichnen"
+          ]
         }
       ]
     },
@@ -383,24 +418,7 @@
           "name": {
             "en": "Google Earth - Legacy"
           },
-          "osIconPath": "/usr/share/icons/Faenza/apps/96/googleearth.png"
-        },
-        {
-          "type": "desktop",
-          "source": "google-earth",
-          "inactiveByDeviceType": "thinclient",
-          "name": {
-            "en": "Google Earth"
-          },
-          "osIconPath": "/usr/share/icons/Faenza/apps/96/googleearth.png"
-        },
-        {
-          "type": "desktop",
-          "source": "skype",
-          "name": {
-            "en": "Skype"
-          },
-          "osIconPath": "/usr/share/icons/Faenza/apps/32/skype.png" ,
+          "osIconPath": "/usr/share/icons/Faenza/apps/96/googleearth.png" ,
           "keywords": [
             "lp21",
             "z3",
@@ -409,6 +427,31 @@
             "raum",
             "geografie"
           ]
+        },
+        {
+          "type": "desktop",
+          "source": "google-earth",
+          "inactiveByDeviceType": "thinclient",
+          "name": {
+            "en": "Google Earth"
+          },
+          "osIconPath": "/usr/share/icons/Faenza/apps/96/googleearth.png" ,
+          "keywords": [
+            "lp21",
+            "z3",
+            "z2",
+            "nmg",
+            "raum",
+            "geografie"
+          ]
+        },
+        {
+          "type": "desktop",
+          "source": "skype",
+          "name": {
+            "en": "Skype"
+          },
+          "osIconPath": "/usr/share/icons/Faenza/apps/32/skype.png"
 
         },
         {
@@ -906,8 +949,16 @@
           },
           "keywords": [
             "lp21",
-            "",
-            ""
+            "z1",
+            "z2",
+            "sprachen",
+            "mathematik",
+            "ict",
+            "lesen",
+            "hören",
+            "operieren",
+            "spielen"
+            
           ]
         },
         {
@@ -917,8 +968,8 @@
           "keywords": [
             "digabi",
             "lp21",
-            "",
-            ""
+            "mathematik",
+            "z3"
           ]
         },
         {
@@ -932,8 +983,8 @@
           },
           "keywords": [
             "lp21",
-            "",
-            ""
+            "mathematik",
+            "z3"
           ]
         },
         {
@@ -947,8 +998,9 @@
           },
           "keywords": [
             "lp21",
-            "",
-            ""
+            "nmg",
+            "räume",
+            "geografie"
           ]
         },
         {
@@ -962,8 +1014,9 @@
           },
           "keywords": [
             "lp21",
-            "",
-            ""
+            "nmg",
+            "räume",
+            "geografie"
           ]
         },
         {
@@ -977,8 +1030,8 @@
           },
           "keywords": [
             "lp21",
-            "",
-            ""
+            "sprachen",
+            "operieren"
           ]
         },
         {
@@ -995,8 +1048,8 @@
           ],
           "keywords": [
             "lp21",
-            "",
-            ""
+            "sprachen",
+            "operieren"
           ]
         },
         {
@@ -1013,8 +1066,8 @@
           ],
           "keywords": [
             "lp21",
-            "",
-            ""
+            "sprachen",
+            "z1"
           ]
         },
         {
@@ -1031,8 +1084,8 @@
           ],
           "keywords": [
             "lp21",
-            "",
-            ""
+            "sprachen",
+            "schreiben"
           ]
         },
         {
@@ -1047,8 +1100,10 @@
           },
           "keywords": [
             "lp21",
-            "",
-            ""
+            "nmg",
+            "räume",
+            "natur",
+            "astronomie"
           ]
         },
         {
@@ -1063,8 +1118,10 @@
           },
           "keywords": [
             "lp21",
-            "",
-            ""
+            "nmg",
+            "räume",
+            "natur",
+            "astronomie"
           ]
         },
         {
@@ -1081,8 +1138,10 @@
           ],
           "keywords": [
             "lp21",
-            "",
-            ""
+            "nmg",
+            "räume",
+            "natur",
+            "astronomie"
           ]
         },
         {
@@ -1099,8 +1158,8 @@
           ],
           "keywords": [
             "lp21",
-            "",
-            ""
+            "nmg",
+            "physik"
           ]
         },
         {
@@ -1109,8 +1168,7 @@
           "keywords": [
             "digabi",
             "lp21",
-            "",
-            ""
+            "nmg"
           ]
         },
         {
@@ -1119,8 +1177,8 @@
           "keywords": [
             "digabi",
             "lp21",
-            "",
-            ""
+            "mathematik",
+            "z3"
           ]
         },
         {
@@ -1135,8 +1193,9 @@
           },
           "keywords": [
             "lp21",
-            "",
-            ""
+            "nmg",
+            "natur",
+            "chemie"
           ]
         },
         {
@@ -1153,8 +1212,8 @@
           ],
           "keywords": [
             "lp21",
-            "",
-            ""
+            "nmg",
+            "chemie"
           ]
         },
         {
@@ -1168,8 +1227,7 @@
           },
           "keywords": [
             "lp21",
-            "",
-            ""
+            "mathematik"
           ]
         }
       ]
@@ -1285,7 +1343,12 @@
             "fi": "Scribus-julkaisuohjelma",
             "sv": "Scribus Layout",
             "de": "Scribus Seitengestaltung"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "gestalten",
+            "zeichnen"
+          ]
         },
         {
           "type": "desktop",
@@ -1395,7 +1458,11 @@
             "fi": "Ääninauhuri",
             "sv": "Ljudinspelare",
             "de": "Tonaufnahmen"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "gestalten"
+          ]
         },
         {
           "type": "desktop",
@@ -1405,7 +1472,11 @@
             "fi": "Audacity-äänieditori",
             "sv": "Audacity-ljudredigerare",
             "de": "Audacity Audio bearbeiten"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "gestalten"
+          ]
         },
         {
           "type": "desktop",
@@ -1477,7 +1548,12 @@
             "fi": "OpenShot-videoeditori",
             "sv": "OpenShot-videoredigerare",
             "de": "OpenShot Videoeditor"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "z1",
+            "gestalten"
+          ]
         },
         {
           "type": "desktop",
@@ -1487,7 +1563,11 @@
             "fi": "Kdenlive-videoeditori",
             "sv": "Kdenlive-videoredigerare",
             "de": "Kdenlive Videoeditor"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "gestalten"
+          ]
         },
         {
           "type": "custom",
@@ -1506,7 +1586,11 @@
             "sv": "Redigera videon",
             "de": "Video bearbeiten"
           },
-          "osIcon": "kino"
+          "osIcon": "kino",
+          "keywords": [
+            "lp21",
+            "gestalten"
+          ]
         },
         {
           "type": "desktop",
@@ -1516,7 +1600,11 @@
             "fi": "Pitivi-videoeditori",
             "sv": "Pitivi-videoredigerare",
             "de": "Pitivi Filme bearbeiten"
-          }
+          },
+          "keywords": [
+            "lp21",
+            "gestalten"
+          ]
         },
         {
           "type": "desktop",
@@ -1529,8 +1617,8 @@
           },
           "keywords": [
             "lp21",
-            "",
-            ""
+            "musik",
+            "hören"
           ]
         },
         {
