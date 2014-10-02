@@ -1861,7 +1861,7 @@
           "type": "webWindow",
           "height": 660,
           "width": 985,
-          "url": "http://www.bodenreise.ch",
+          "url": "http://bafu.lernfragen.ch/file.php/1/lift_2/index.html#deq",
           "name": "bodenreise",
           "osIconPath": "/usr/share/pixmaps/bodenreise.png",
           "keywords": [
@@ -1878,7 +1878,7 @@
           "type": "webWindow",
           "height": 660,
           "width": 985,
-          "url": "http://www.cool-driving.ch",
+          "url": "http://www.cooldriving.ch/flashCycle/cool02MX.swf",
           "name": "cool-driving",
           "osIconPath": "/usr/share/pixmaps/cool-driving.png",
           "keywords": [
@@ -1907,7 +1907,7 @@
           "type": "webWindow",
           "height": 600,
           "width": 800,
-          "url": "http://www.flubidux.de",
+          "url": "http://www.flubidux.de/start.htm",
           "name": "flubidux",
           "osIconPath": "/usr/share/pixmaps/flubidux.png",
           "keywords": [
@@ -1975,7 +1975,7 @@
           "type": "webWindow",
           "height": 660,
           "width": 985,
-          "url": "http://www.kinderwald.ch",
+          "url": "http://kinder.wald.de",
           "name": "kinderwald",
           "osIconPath": "/usr/share/pixmaps/kinderwald.png",
           "keywords": [
@@ -1991,7 +1991,7 @@
           "type": "webWindow",
           "height": 600,
           "width": 800,
-          "url": "http://www.kinderweltmusik.ch",
+          "url": "http://www.weltmusik-fuer-kinder.de",
           "name": "kinderweltmusik",
           "osIconPath": "/usr/share/pixmaps/kinderweltmusik.png",
           "keywords": [
@@ -2051,7 +2051,7 @@
           "type": "webWindow",
           "height": 600,
           "width": 800,
-          "url": "http://www.mathe-aktiv-division.ch",
+          "url": "http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/dividieren/division_swf/index.htm",
           "name": "mathe-aktiv-division",
           "osIconPath": "/usr/share/pixmaps/mathe-aktiv-division.png",
           "keywords": [
@@ -2067,7 +2067,7 @@
           "type": "webWindow",
           "height": 600,
           "width": 800,
-          "url": "http://www.mathe-aktiv-insaetze.ch",
+          "url": "http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/insaetzchen/index.htm",
           "name": "mathe-aktiv-insaetze",
           "osIconPath": "/usr/share/pixmapsmathe-aktiv-insaetze/.png",
           "keywords": [
@@ -2083,7 +2083,7 @@
           "type": "webWindow",
           "height": 600,
           "width": 800,
-          "url": "http://www.mathe-aktiv-multiplikation.ch",
+          "url": "http://www.lehrerweb.at/materials/gs/mathe/mathe_aktiv/1x1/1x1/index.htm",
           "name": "mathe-aktiv-multiplkation",
           "osIconPath": "/usr/share/pixmaps/mahte-aktiv-multiplikation.png",
           "keywords": [
@@ -2126,7 +2126,7 @@
           "type": "webWindow",
           "height": 600,
           "width": 800,
-          "url": "http://www.musikwissenschaften.ch",
+          "url": "http://www.musikwissenschaften.de/kids/",
           "name": "musikwissenschaften",
           "osIconPath": "/usr/share/pixmaps/musikwissenschaften.png",
           "keywords": [
@@ -2182,7 +2182,7 @@
           "type": "webWindow",
           "height": 600,
           "width": 800,
-          "url": "http://www.notenmax.ch",
+          "url": "http://www.notenmax.de",
           "name": "notenmax",
           "osIconPath": "/usr/share/pixmaps/notenmax.png",
           "keywords": [
@@ -2244,7 +2244,7 @@
           "type": "webWindow",
           "height": 600,
           "width": 800,
-          "url": "http://www.schatz-der-kulturen.ch",
+          "url": "http://www.schatz-der-kulturen.de",
           "name": "schatz-der-kulturen",
           "osIconPath": "/usr/share/pixmaps/schatz-der-kulturen.png",
           "keywords": [
