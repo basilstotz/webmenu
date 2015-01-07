@@ -64,7 +64,7 @@
           "en": "Shutdown",
           "fi": "Sammuta",
           "sv": "Stäng av",
-          "de": "Abscahlten"
+          "de": "Abschalten"
       },
       "command": [
           "dbus-send",
@@ -83,7 +83,7 @@
           "en": "Restart",
           "fi": "Käynnistä uudelleen",
           "sv": "Starta om",
-          "de": "Neustarten"
+          "de": "Neustart"
       },
       "command": [
           "dbus-send",
