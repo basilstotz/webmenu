@@ -141,6 +141,7 @@
         {
           "type": "desktop",
           "source": "kolourpaint",
+          "osIconPath": "/usr/share/icons/hicolor/48x48/apps/kolourpaint.png",
           "name": {
             "en": "KolourPaint"
           }
@@ -309,10 +310,6 @@
       "items": [
         {
           "type": "desktop",
-          "source": "google-chrome"
-        },
-        {
-          "type": "desktop",
           "source": "firefox",
           "name": {
             "en": "Firefox-browser",
@@ -329,6 +326,16 @@
             "fi": "Chromium-selain",
             "sv": "Chromium",
             "de": "Chromium-Browser"
+          }
+        },
+        {
+          "type": "desktop",
+          "source": "google-chrome",
+          "name": {
+            "en": "Chrome-browser",
+            "fi": "Chrome-selain",
+            "sv": "Chrome",
+            "de": "Chrome"
           }
         },
         {
@@ -449,9 +456,9 @@
       "items": [
         {
           "type": "desktop",
-          "source": "netbeans",
+          "source": "tmcbeans",
           "name": {
-            "en": "NetBeans IDE"
+            "en": "NetBeans IDE with TMC plugin"
           },
           "osIconPath": "/usr/share/icons/Faenza/apps/96/netbeans.png"
         },
@@ -462,6 +469,22 @@
             "en": "Arduino IDE"
           },
           "inactiveByDeviceType": "thinclient"
+        },
+        {
+          "type": "desktop",
+          "osIconPath": "/usr/share/pixmaps/fritzing_icon.png",
+          "source": "fritzing"
+        },
+        {
+          "type": "desktop",
+          "inactiveByDeviceType": "thinclient",
+          "source": "Snap4Arduino",
+          "name": {
+            "en": "Teddy Bear programming",
+            "fi": "Nalle-ohjelmointi",
+            "sv": "Teddybjörn programmering",
+            "de": "Teddy-Programmierung"
+          }
         },
         {
           "type": "desktop",
@@ -580,6 +603,11 @@
       },
       "osIcon":"gnome-joystick",
       "items": [
+        {
+          "type": "desktop",
+          "source": "ekapeli",
+          "inactiveByDeviceType": "thinclient"
+        },
         {
           "type": "desktop",
           "source": "gcompris",
@@ -787,6 +815,7 @@
         },
         {
           "type": "desktop",
+          "inactiveByDeviceType": "thinclient",
           "source": "mandelbulber",
           "name": {
             "en": "Mandelbulber",
@@ -794,6 +823,10 @@
             "sv": "Mandelbulber",
             "de": "Mandelbulber"
           }
+        },
+        {
+          "type": "desktop",
+          "source": "qgis"
         }
       ]
     },
@@ -1089,6 +1122,13 @@
           "inactiveByDeviceType": "thinclient"
         },
         {
+          "type": "custom",
+          "name": "Kena Vision Microscope",
+          "command": "/opt/av4kav/lib/av4.sh",
+          "osIconPath": "/usr/share/icons/Faenza/devices/96/camera-web.png",
+          "inactiveByDeviceType": "thinclient"
+        },
+        {
           "type": "desktop",
           "source": "openshot",
           "name": {
@@ -1170,6 +1210,7 @@
         {
           "type": "desktop",
           "source": "hydrogen",
+          "osIconPath": "/usr/share/hydrogen/data/img/gray/icon.svg",
           "name": {
             "en": "Hydrogen-drum machine",
             "fi": "Hydrogen-rumpukone",
@@ -1221,10 +1262,13 @@
         },
         {
           "type": "desktop",
+          "inactiveByDeviceType": "thinclient",
           "source": "qsynth"
         },
         {
           "type": "desktop",
+          "inactiveByDeviceType": "thinclient",
+          "osIconPath": "/usr/share/icons/hicolor/32x32/apps/qjackctl.png",
           "source": "qjackctl"
         }
           ]
@@ -1330,7 +1374,7 @@
         },
         {
           "type": "web",
-          "name": "Ylen Elävä arkisto",
+          "name": "Yle - Elävä arkisto",
           "url": "http://yle.fi/elavaarkisto/index.html",
           "description": "Ylen Eläväarkisto-videopalvelu",
           "osIconPath": "/usr/share/icons/Faenza/apps/96/me-tv.png"
@@ -1376,12 +1420,13 @@
         },
         {
           "type": "web",
-          "name": "Ekapeli",
+          "name": "Ekapeli (websivu)",
           "url": "http://www.lukimat.fi/lukeminen/materiaalit/ekapeli",
           "osIconPath": "/usr/share/icons/Faenza/categories/96/gnome-joystick.png"
         },
         {
           "type": "desktop",
+          "inactiveByDeviceType": "thinclient",
           "source": "netflix"
         }
       ]

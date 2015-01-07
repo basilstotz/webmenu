@@ -2,11 +2,10 @@
 Backbone = require "backbone"
 ViewMaster = require "../vendor/backbone.viewmaster"
 
-FeedbackModel = require "../models/FeedbackModel.coffee"
 Application = require "../Application.coffee"
 Favorites = require "./Favorites.coffee"
 Lightbox = require "./Lightbox.coffee"
-LogoutView = require "./LogoutView.coffee"
+MenuItemConfirmView = require "./MenuItemConfirmView.coffee"
 Breadcrumbs = require "./Breadcrumbs.coffee"
 MenuListView = require "./MenuListView.coffee"
 SidebarView = require "./SidebarView.coffee"
@@ -24,25 +23,28 @@ class MenuLayout extends ViewMaster
         @allItems = opts.allItems
         @user = opts.user
         @config = opts.config
-        @feedback = new FeedbackModel
         @lightbox = null
 
         @menuListView = new MenuListView
             model: opts.initialMenu
             collection: opts.allItems
+            config: opts.config
 
         @setView ".menu-list-container", @menuListView
 
-        @setView ".search-container", new Search
+        @search = new Search
+        @setView ".search-container", @search
 
         @breadcrumbs = new Breadcrumbs model: opts.initialMenu
         @setView ".breadcrumbs-container", @breadcrumbs
 
-        @setView ".sidebar-container", new SidebarView(opts)
+        @sidebarView = new SidebarView(opts)
+        @setView ".sidebar-container", @sidebarView
 
-        @setView ".favorites-container", new Favorites
+        @favorites =  new Favorites
             collection: @allItems
             config: @config
+        @setView ".favorites-container", @favorites
 
         @listenTo this, "open-menu", (model, sender) =>
             # Update MenuListView when user navigates from breadcrumbs
@@ -52,17 +54,34 @@ class MenuLayout extends ViewMaster
             if sender isnt @breadcrumbs
                 @breadcrumbs.broadcast("open-menu", model)
 
+        @listenTo this, "open-confirm", (model) =>
+            @displayViewInLightbox new MenuItemConfirmView
+                model: model
+                config: @config
+
+
+
         # Connect search events to MenuListView
         @listenTo this, "search", (searchString) =>
             @menuListView.broadcast("search", searchString)
 
 
-        @listenTo this, "reset", @removeLightbox
+        @listenTo this, "open-root-view", =>
+            @setView ".favorites-container", @favorites
+            @setView ".search-container", @search
+            @setView ".breadcrumbs-container", @breadcrumbs
+            @refreshViews()
 
         @listenTo this, "open-logout-view", =>
-            @displayViewInLightbox new LogoutView
-                model: @feedback
-                config: @config
+            @favorites.detach()
+            @search.detach()
+            @breadcrumbs.detach()
+            @menuListView.broadcast("open-logout-view")
+            @$(".favorites-container").empty()
+            @$(".search-container").empty()
+            @$(".breadcrumbs-container").empty()
+            @refreshViews()
+
 
     displayViewInLightbox: (view) ->
         @menuListView.releaseKeys()

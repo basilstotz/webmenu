@@ -3,6 +3,8 @@ ViewMaster = require "../vendor/backbone.viewmaster"
 
 Navigation = require "../utils/Navigation.coffee"
 MenuItemView = require "./MenuItemView.coffee"
+FeedbackModel = require "../models/FeedbackModel.coffee"
+Feedback = require "./Feedback.coffee"
 
 class MenuListView extends ViewMaster
 
@@ -12,6 +14,13 @@ class MenuListView extends ViewMaster
 
     constructor: (opts) ->
         super
+        @config = opts.config
+
+        @feedback = new FeedbackModel
+
+        @feedbackView = new Feedback
+            model: @feedback
+            config: @config
 
         @initial = @model
         @setCurrent()
@@ -28,6 +37,19 @@ class MenuListView extends ViewMaster
         @listenTo this, "reset", =>
             @model = @initial
             @setCurrent()
+            @$el.attr("style", "")
+            @refreshViews()
+            @navigation.deactivate()
+
+        @listenTo this, "open-logout-view", =>
+            @releaseKeys()
+
+            if @config.get("feedback")
+                @setView ".app-list-container", @feedbackView
+            else
+                $(".app-list-container").empty()
+
+            @$el.attr("style", "bottom: -100px")
             @refreshViews()
             @navigation.deactivate()
 
@@ -71,6 +93,7 @@ class MenuListView extends ViewMaster
         @setItems(@model.items.toArray())
 
     setItems: (models) ->
+        @feedbackView.detach()
         @setView ".app-list-container", models.map (model) ->
             new MenuItemView
                 model: model
