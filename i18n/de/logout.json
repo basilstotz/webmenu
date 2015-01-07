@@ -1,6 +1,6 @@
 {
   "logout": "Abmelden",
-  "shutdown": "Abscahlten",
+  "shutdown": "Abschalten",
   "restart": "Neustarten",
   "cancel": "Abbrechen",
   "exit": "Beenden",
@@ -17,5 +17,5 @@
   "sending": "versende...",
   "sendingFailed": "Das versenden hat leider nicht geklappt :(",
   "now": "Jetzt!",
-  "or": "Oder..."
+  "or": "oder..."
 }
