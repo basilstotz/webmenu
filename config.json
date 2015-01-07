@@ -83,7 +83,7 @@
           "en": "Restart",
           "fi": "Käynnistä uudelleen",
           "sv": "Starta om",
-          "de": "Neustart"
+          "de": "Neustarten"
       },
       "command": [
           "dbus-send",
