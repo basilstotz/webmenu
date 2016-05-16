@@ -1,5 +1,13 @@
 
+
 path = require "path"
+{loadFallback, load, readDirectoryD} = require "./load"
+
+getWeight = (tab) ->
+    if not tab.weight
+        return 10
+    else
+        parseFloat(tab.weight, 10)
 
 getMenuJSONPaths = (webmenuHome) ->
 
@@ -34,4 +42,26 @@ getMenuJSONPaths = (webmenuHome) ->
 
     return menu_json_paths
 
-module.exports = getMenuJSONPaths
+
+  loadTabs = (webmenuHome) ->
+    # The default menu.json is a single tab
+    defaultTab = loadFallback(getMenuJSONPaths(webmenuHome))
+    tabs = [defaultTab]
+
+    readDirectoryD(
+        "/etc/webmenu/tab.d",
+        webmenuHome + "/tab.d"
+    ).forEach (tabFile) ->
+        try
+            tabs.push(load(tabFile))
+        catch err
+            console.error("Invalid tab file: #{ tabFile }")
+
+    tabs.sort (a, b) -> getWeight(a) - getWeight(b)
+    return tabs.filter(Boolean)
+
+
+module.exports = loadTabs
+
+
+

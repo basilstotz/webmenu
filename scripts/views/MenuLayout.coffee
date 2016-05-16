@@ -6,10 +6,16 @@ Application = require "../Application.coffee"
 Favorites = require "./Favorites.coffee"
 Lightbox = require "./Lightbox.coffee"
 MenuItemConfirmView = require "./MenuItemConfirmView.coffee"
-Breadcrumbs = require "./Breadcrumbs.coffee"
 MenuListView = require "./MenuListView.coffee"
 SidebarView = require "./SidebarView.coffee"
 Search = require "./Search.coffee"
+Tabs = require "./Tabs.coffee"
+FolderTitle = require "./FolderTitle.coffee"
+
+class HostnameView extends ViewMaster
+    template: (context) ->
+        "<div class=machine-hostname>#{context.hostname}</div>"
+
 
 class MenuLayout extends ViewMaster
 
@@ -25,18 +31,23 @@ class MenuLayout extends ViewMaster
         @config = opts.config
         @lightbox = null
 
+        @folderTitle = new FolderTitle model: opts.initialMenu.items.at(0)
+        @setView ".folder-title-container", @folderTitle
+
         @menuListView = new MenuListView
-            model: opts.initialMenu
+            model: opts.initialMenu.items.at(0)
             collection: opts.allItems
             config: opts.config
 
         @setView ".menu-list-container", @menuListView
 
         @search = new Search
+        @hostnameView = new HostnameView model: @config
         @setView ".search-container", @search
 
-        @breadcrumbs = new Breadcrumbs model: opts.initialMenu
-        @setView ".breadcrumbs-container", @breadcrumbs
+        @tabs = new Tabs
+            collection: opts.initialMenu.items
+        @setView ".tabs-container", @tabs
 
         @sidebarView = new SidebarView(opts)
         @setView ".sidebar-container", @sidebarView
@@ -46,40 +57,42 @@ class MenuLayout extends ViewMaster
             config: @config
         @setView ".favorites-container", @favorites
 
-        @listenTo this, "open-menu", (model, sender) =>
-            # Update MenuListView when user navigates from breadcrumbs
-            if sender is @breadcrumbs
-                @menuListView.broadcast("open-menu", model)
-            # Update breadcrums when user navigates from menu tree
-            if sender isnt @breadcrumbs
-                @breadcrumbs.broadcast("open-menu", model)
-
         @listenTo this, "open-confirm", (model) =>
             @displayViewInLightbox new MenuItemConfirmView
                 model: model
                 config: @config
 
+        # Lightbox is not the same DOM tree as the other views. So manually
+        # proxy all message to it too
+        @listenTo this, "all", (eventName, arg) =>
+            if @lightbox
+                @lightbox.broadcast(eventName, arg)
 
 
         # Connect search events to MenuListView
         @listenTo this, "search", (searchString) =>
             @menuListView.broadcast("search", searchString)
 
+        @listenTo this, "open-menu", (model, sender) =>
+            @menuListView.broadcast("open-menu", model, sender)
+            @folderTitle.broadcast("open-menu", model, sender)
 
         @listenTo this, "open-root-view", =>
+            @setView ".folder-title-container", @folderTitle
             @setView ".favorites-container", @favorites
+            @hostnameView.detach()
             @setView ".search-container", @search
-            @setView ".breadcrumbs-container", @breadcrumbs
+            @removeLightbox()
             @refreshViews()
 
         @listenTo this, "open-logout-view", =>
+            @folderTitle.detach()
             @favorites.detach()
             @search.detach()
-            @breadcrumbs.detach()
+            @setView ".search-container", @hostnameView
             @menuListView.broadcast("open-logout-view")
+            @tabs.broadcast("open-logout-view")
             @$(".favorites-container").empty()
-            @$(".search-container").empty()
-            @$(".breadcrumbs-container").empty()
             @refreshViews()
 
 

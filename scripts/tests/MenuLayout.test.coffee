@@ -8,28 +8,32 @@ data =
     type: "menu"
     name: "Top"
     items: [
-        type: "desktop"
-        name: "Gimp"
-        command: ["gimp"]
-    ,
-        type: "desktop"
-        name: "Shotwell"
-        command: ["shotwell"]
-    ,
-        type: "web"
-        name: "Flickr"
-        url: "http://flickr.com"
-    ,
-        type: "web"
-        name: "Picasa"
-        url: "http://picasa.com"
-    ,
         type: "menu"
-        name: "submenu"
+        name: "Tabs"
         items: [
+            type: "desktop"
+            name: "Gimp"
+            command: ["gimp"]
+        ,
+            type: "desktop"
+            name: "Shotwell"
+            command: ["shotwell"]
+        ,
             type: "web"
-            name: "Subitem"
-            url: "http://example.com"
+            name: "Flickr"
+            url: "http://flickr.com"
+        ,
+            type: "web"
+            name: "Picasa"
+            url: "http://picasa.com"
+        ,
+            type: "menu"
+            name: "submenu"
+            items: [
+                type: "web"
+                name: "Subitem"
+                url: "http://example.com"
+            ]
         ]
     ]
 
@@ -100,12 +104,3 @@ describe "MenuLayout", ->
             expect(layout.$(".bb-menu-list .bb-menu-item")).to.not.contain('Subitem')
             layout.$(".bb-menu-item.type-menu").trigger("click")
             expect(layout.$(".bb-menu-list .bb-menu-item")).to.contain('Subitem')
-
-        it "can go back using breadcrumbs", ->
-            layout.$(".bb-menu-item.type-menu").trigger("click")
-            layout.$(".bb-breadcrumbs li a").filter( (i, el) ->
-                el.innerText.trim() is "Top"
-            ).trigger("click")
-            expect(layout.$(".bb-menu-list .bb-menu-item")).to.not.contain('Subitem')
-
-

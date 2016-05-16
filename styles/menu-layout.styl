@@ -17,36 +17,28 @@
   bottom borderMargin
 
   .main-area,
-  .footer,
-  .header
+  .footer
     right sideBarWidth
 
   .main-area
     disable-select()
     left borderMargin
-    top headerHeight
+    top 90px
     bottom footerHeight
 
-
-  .header
+  .search-container
     disable-select()
-    height headerHeight
-    left borderMargin
-    top borderMargin
+    top topMargin
+    position absolute
+    right sideBarWidth + contentRightMargin
 
-    .search-container,
-    .breadcrumbs-container
-      disable-select()
-      margin 5px
-      margin-top 10px
-      margin-bottom 10px
-      float left
-      ul
-        margin 0px
-        padding-left 0px
-
-    .search-container
-      margin-left 20px
+  .folder-title-container
+    position: absolute;
+    top headerHeight
+    left: 20px;
+    z-index: 10;
+    right: 320px;
+    height: 40px;
 
   .border
     width 1px
@@ -67,4 +59,3 @@
     height footerHeight
     left borderMargin
     bottom borderMargin
-

@@ -22,7 +22,9 @@ help(){
     -x --use-xdg    Generating menu content using the Desktop Menu Specification
     --webkiosk      Enable webkiosk mode.
     -s --stop       Stop the running Webmenu process
+    -r --restart    Restart while preserving environment variables. Works only when mon is used.
     -n --no-build   Skip asset building in development mode
+    --first-run     Remove existing pid files if any. Use when starting from login script
 
     Hacking options
 
@@ -32,6 +34,12 @@ help(){
     Environment variables
 
     WM_MENU_JSON_PATH   Colon separated list of paths where to search for menu.json
+    WM_CONFIG_JSON_PATH Colon separated list of additional paths where to
+                        search for config.json. By default config.json is read
+                        from
+                            $HOME/.config/webmenu/config.json
+                            /etc/webmenu/config.json
+                            /opt/webmenu/config.json
     WM_HOME             Webmenu config home
     WM_FEEDBACK_ACTIVE  Activate anonymous usage statistics
     WM_WEBKIOSK_MODE    Activate webkiosk mode
@@ -65,17 +73,15 @@ done
 
 # https://github.com/visionmedia/mon
 mon_args=""
-pidfile="$WM_HOME/mon.pid"
+mon_pidfile="$WM_HOME/mon.pid"
+nw_pidfile="$WM_HOME/nw.pid"
 
 wm_args=""
 
 use_mon=true
 use_xdg=false
+stop_wm=false
 
-# Kill previous webmenu if any
-if [ -f "$pidfile" ]; then
-    kill $(cat $pidfile) || true
-fi
 
 while true; do
     case "${1:-}" in
@@ -86,6 +92,10 @@ while true; do
             # Enable error reporting to fluentd only in daemon mode
             mon_args="$mon_args --daemonize"
             shift
+        ;;
+        -r|--restart)
+            kill $(cat $nw_pidfile)
+            exit 0
         ;;
         -d)
             wm_args="$wm_args --devtools"
@@ -116,12 +126,13 @@ while true; do
             use_xdg=true
             shift
         ;;
-        --no-mon)
-            use_mon=false
+        -s|--stop)
+            stop_wm=true
             shift
         ;;
-        -s|--stop)
-            exit 0
+        --first-run)
+            rm -f "$mon_pidfile" "$nw_pidfile"
+            shift
         ;;
         "")
             break
@@ -132,6 +143,15 @@ while true; do
         ;;
     esac
 done
+
+# Kill previous webmenu if any
+if [ -f "$mon_pidfile" ]; then
+    kill $(cat $mon_pidfile) || true
+fi
+
+if $stop_wm; then
+    exit 0
+fi
 
 generated_menu_json="$WM_HOME/menu-generated.json"
 
@@ -170,11 +190,13 @@ if $use_mon; then
     exec mon $mon_args \
         --log $WM_LOG_FILE \
         --attempts 2 \
-        --mon-pidfile "$pidfile" \
+        --mon-pidfile "$mon_pidfile" \
+        --pidfile "$nw_pidfile" \
         --on-restart $restart_script \
         --on-error $error_script \
         "nw . $wm_args"
 else
-    echo $$ > "$pidfile"
+    echo $$ > "$nw_pidfile"
+    rm -f "$mon_pidfile"
     exec nw . $wm_args
 fi

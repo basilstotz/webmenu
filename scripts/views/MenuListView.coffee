@@ -23,11 +23,17 @@ class MenuListView extends ViewMaster
             config: @config
 
         @initial = @model
+
         @setCurrent()
 
         @navigation = new Navigation @getMenuItemViews(), @itemCols()
 
         @keyHandler = (e) =>
+            LEFT_ARROW = 37
+            if @model.get("type") is "menu" and e.which is LEFT_ARROW and e.altKey and not @model.isTab()
+                @bubble "open-menu", @model.parent, this
+                return
+
             @navigation.cols = @itemCols()
             @navigation.handleKeyEvent(e)
 
@@ -43,7 +49,6 @@ class MenuListView extends ViewMaster
 
         @listenTo this, "open-logout-view", =>
             @releaseKeys()
-
             if @config.get("feedback")
                 @setView ".app-list-container", @feedbackView
             else
@@ -53,7 +58,7 @@ class MenuListView extends ViewMaster
             @refreshViews()
             @navigation.deactivate()
 
-        @listenTo this, "open-menu", (model) =>
+        @listenTo this, "open-menu", (model, sender) =>
             @model = model
             @setCurrent()
             @refreshViews()
@@ -91,6 +96,7 @@ class MenuListView extends ViewMaster
 
     setCurrent: ->
         @setItems(@model.items.toArray())
+
 
     setItems: (models) ->
         @feedbackView.detach()

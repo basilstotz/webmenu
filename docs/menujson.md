@@ -1,22 +1,29 @@
-# menu.json
+# menu files
 
-Menu content is created from a menu.json file. Webmenu will look it from
+Menu content is created from JSON and YAML files. The files are read from
 following locations:
 
-  1. ~/.config/webmenu/menu.json
-  2. /etc/webmenu/menu.json
-  3. the bundled menu.json
+  1. `~/.config/webmenu/menu.{json,yaml}`
+  2. `/etc/webmenu/menu.{json,yaml}`
+  3. the bundled `menu.json`
 
-Use these paths to customize Webmenu content.
+The first one found will be used as the menu content.
 
-In future Webmenu will be able to fetch it from a web service.
+Webmenu can also have tabs. The tabs can be defined in following locations:
+
+  1. `~/.config/webmenu/tab.d/*.{json,yaml}`
+    - Ex. `~/.config/webmenu/tab.d/mytab.yaml`
+  2. `/etc/webmenu/tab.d/*.{json,yaml}`
+
+
+Each file will represent a single tab. The data structure is exactly the same
+in every file.
 
 ## Structure
 
-menu.json is a nested object presentation of menus and launchable items.
+Menu file is a nested object presentation of menus and launchable items.
 
 Every object must have a `type` attribute which can be one of following:
-
 
 ### `menu`
 
@@ -27,6 +34,8 @@ Attributes
 
   - `name`: {String, required} Name of the item
   - `items`: {Array, required} Array of launcher object and/or menu objects
+  - `weight`: {Number} Set tab order. Tabs are sorted as ascending by the
+    weight. Relevant only in the top level menu items.
 
 ### `custom`
 
@@ -36,18 +45,65 @@ Attributes
 
   - `name`: {String, required} Name of the item
   - `command`: {Array, required} Command to execute
+  - `installer`: {String, optional} Path to an alternative executable. Used as
+    the `command` when it's not found from the PATH.
 
 ### `desktop`
 
 Launcher item from a .desktop file. It auto populates `id`, `name`,
 `description`, `command` and `osIcon` attributes. Any auto populated field can
 be overridden by specifying it directly to this object. If the requested
-.desktop file is not found the item will not be displayed. Respects the current
+`.desktop` file is not found the item will not be displayed. Respects the current
 locale.
 
 Desktop file locations are configured in `config.json`.
 
   - `source`: {String, required} Name of the .desktop file without the extension
+  - `installer`: {String, optional} Used as the command when the .desktop file
+    is not found from the system
+
+#### `desktop.d` directories
+
+As of Webmenu `0.8.0` the desktop entries can be defined in following
+`desktop.d` directories as JSON and YAML:
+
+  1. `~/.config/webmenu/desktop.d/*.{json,yaml}`
+  2. `/etc/webmenu/desktop.d/*.{json,yaml}`
+
+Each file must have a object of `.desktop` filenames (without an extension) as
+keys. It can be used to override some or all the values of a desktop file – or
+create completely new entries.
+
+Files are read alphabetically. Entries in latter ones will override any
+existing entries.
+
+Example: Override the name in `gedit.desktop`
+
+`~/.config/webmenu/desktop.d/gedit-override.json`
+
+```js
+{
+  "gedit": {
+    "name": {
+      "en": "Simple editor",
+      "fi": "Yksinkertainen editori"
+  }
+}
+```
+
+Example: Create completely new entry
+
+`~/.config/webmenu/desktop.d/myapps.json`
+
+```js
+{
+  "eyes": {
+    "name": "Show some eyes",
+    "osIcon": "myicon",
+    "command": "xeyes"
+  }
+}
+```
 
 
 ### `web`
@@ -104,6 +160,11 @@ These attributes can be added to any object
     Overrides `osIcon`
   - `keywords`: {Array} Array of strings. Make item appear also when on these
     search strings.
+  - `condition`: {String, optional} Javascript expression. When present the
+  condition is executed and the item will appear only when the expression
+  evaluates to a truthty value. The expression has two values in scope. `env`
+  which contains all the environment environment and `item` which is the current
+  menu item.
 
 ### Translations
 

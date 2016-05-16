@@ -3,6 +3,8 @@
 # "browser" in scripts/start.js.
 ###
 
+require "../polyfills"
+os = require "os"
 posix = require "posix"
 mkdirp = require "mkdirp"
 fs = require "fs"
@@ -16,14 +18,14 @@ Backbone = require "backbone"
 FeedCollection = require "./FeedCollection"
 launchCommand = require "./launchcommand"
 menutools = require "./menutools"
-requirefallback = require "./requirefallback"
+{load, readDirectoryD} = require "./load"
 logStartTime = require "./logStartTime"
 dbusRegister = require "./dbusRegister"
 forceFocus = require "./forceFocus"
 createSpawnSocket = require "./createSpawnSocket"
 logger = require "./fluent-logger"
 pkg = require "../package.json"
-getMenuJSONPaths = require "./getMenuJSONPaths"
+loadTabs = require "./loadTabs"
 
 
 if process.env.WM_HOME
@@ -66,7 +68,11 @@ if sp = process.env.PUAVO_SESSION_PATH
 
 locale = process.env.LANG
 locale ||= "fi_FI.UTF-8"
-menuJSON = requirefallback(getMenuJSONPaths(webmenuHome))
+
+menuJSON =
+    type: "menu"
+    name: "Tabs"
+    items: loadTabs(webmenuHome)
 
 safeRequire = (path) ->
     try
@@ -75,15 +81,28 @@ safeRequire = (path) ->
         throw err if err.code isnt "MODULE_NOT_FOUND"
         return {}
 
+configJSONPaths = [
+    __dirname + "/../config.json",
+    "/etc/webmenu/config.json",
+    webmenuHome + "/config.json",
+]
+
+if process.env.WM_CONFIG_JSON_PATH
+    for configPath in process.env.WM_CONFIG_JSON_PATH.split(":")
+        configJSONPaths.push(configPath)
+
+
 # Merge config files. Last one overrides options from previous one
-config_data = _.extend({},
-    safeRequire(__dirname + "/../config.json"),
-    safeRequire("/etc/webmenu/config.json"),
-    safeRequire(webmenuHome + "/config.json"),
-)
+config_data = configJSONPaths.reduce((current, configPath) ->
+    console.log "reading #{ configPath }"
+    _.extend(current, safeRequire(configPath))
+, {})
+
 
 config = new Backbone.Model config_data
+config.set("hostname", os.hostname())
 config.set("hostType", require "./hosttype")
+config.set("kernelArch", require "./kernelarch")
 config.set("feedback", logger.active and process.env.WM_FEEDBACK_ACTIVE)
 config.set("guestSession", (process.env.GUEST_SESSION is "true"))
 config.set("webkioskMode", (process.env.WM_WEBKIOSK_MODE is "true"))
@@ -109,16 +128,30 @@ if puavoDomain
         expandVariables(config.get("profileCMD"), "url")
 
 
+desktopItems = readDirectoryD(
+    "/etc/webmenu/desktop.d",
+    webmenuHome + "/desktop.d"
+).reduce (memo, filePath) ->
+    try
+        return _.extend({}, memo, load(filePath))
+    catch err
+        console.error("Invalid desktop.d file: #{ filePath }")
+        return memo
+, {}
+
+
 desktopReadStarted = Date.now()
 # inject data from .desktop file to menuJSON.
-menutools.injectDesktopData(
-    menuJSON
-    config.get("dotDesktopSearchPaths")
-    locale
-    config.get("iconSearchPaths")
-    config.get("fallbackIcon")
-    config.get("hostType")
-)
+menutools.injectDesktopData(menuJSON, {
+    desktopFileSearchPaths: config.get("dotDesktopSearchPaths")
+    locale: locale
+    iconSearchPaths: config.get("iconSearchPaths")
+    fallbackIcon: config.get("fallbackIcon")
+    hostType: config.get("hostType")
+    kernelArch: config.get("kernelArch")
+    installerIcon: config.get("installerIcon") || "kentoo"
+    desktopItems: desktopItems
+})
 
 desktopReadTook = (Date.now() - desktopReadStarted) / 1000
 console.log(".desktop files read took " + desktopReadTook + " seconds")
