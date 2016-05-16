@@ -1,0 +1,12 @@
+{
+  "title": "Retour d'information",
+  "very-good": "Heureux d'entendre! Si vous voulez envoyer d'autres commentaires, il suffit d'écrire ici et nous allons le lire!",
+  "good": "Heureux d'entendre! Si vous voulez envoyer d'autres commentaires il suffit d'écrire ici et nous allons le lire!",
+  "bad": "Dommage :( \nSi vous souhaitez - vous pouvez écrire ici ce que vous dérange afin que nous puissions résoudre le problème!",
+  "very-bad": "Dommage :( \nSi vous souhaitez - vous pouvez écrire ici ce que \ vous dérangé afin que nous puissions résoudre le problème!",
+  "thanks": "Merci! Votre commentaire a été envoyé.",
+  "how-question": "Comment cet ordinateur fonctionne?",
+  "send": "Evoyer",
+  "cancel": "Annuler",
+  "anonymous": "Envoyer anonymement"
+}

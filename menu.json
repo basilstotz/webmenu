@@ -3,6 +3,7 @@
   "name": {
     "en": "Categories",
     "fi": "Kategoriat",
+    "fr": "Categories",
     "sv": "Kategorier",
     "de": "Kategorie"
   },
@@ -13,12 +14,14 @@
       "name": {
         "en": "Tools",
         "fi": "Apuohjelmat",
+	"fr": "Outils",
         "sv": "Verktyg",
         "de": "Werkzeuge"
       },
       "description": {
         "en": "Tools",
         "fi": "Apuohjelmia",
+	"fr": "Outils",
         "sv": "Verktyg",
         "de": "Werkzeuge"
       },
@@ -45,6 +48,7 @@
           "name": {
             "en": "Gedit-text editor",
             "fi": "Gedit-tekstieditori",
+	    "fr": "Gedit-Editeur de texte",
             "sv": "Gedit- tekstredigerare",
             "de": "Gedit-Texteditor"
           }
@@ -64,6 +68,7 @@
           "name": {
             "en": "Brasero - CD/DVD -writer",
             "fi": "Brasero - CD/DVD -kirjoitus",
+	    "fr": "Brasero - CD/DVD -écriture",
             "sv": "Brasero - CD/DVD -brännare",
             "de": "Brasero - CD/DVD -brennen"
           }
@@ -83,6 +88,7 @@
           "name": {
             "en": "Archive Manager",
             "fi": "Pakettienkäsittely-ohjelma",
+	    "fr": "Gestion des archives",
             "sv": "Pakethanterare",
             "de": "Archiv Verwaltung"
           }
@@ -112,6 +118,7 @@
           "name": {
             "en": "Java Control Panel",
             "fi": "Java-asetukset",
+	    "fr": "Jave-réglages",
             "sv": "Java-inställningar",
             "de": "Java Einstellungen"
           },
@@ -127,12 +134,14 @@
       "name": {
         "en": "Graphics",
         "fi": "Grafiikka",
+	"fr": "Grafique",
         "sv": "Grafik",
         "de": "Grafik"
       },
       "description": {
         "en": "Graphic applications",
         "fi": "Graafiset Internet-sovellukset",
+	"fr": "Logiciels graphiques",
         "sv": "Ritprogram",
         "de": "Grafikprogramme"
       },
@@ -152,6 +161,7 @@
           "name": {
             "en": "Tuxpaint-drawing program",
             "fi": "Tuxpaint-piirto-ohjelma",
+	    "fr": "Tuxpaint",
             "sv": "Tuxpaint",
             "de": "Tuxpaint"
           }
@@ -162,6 +172,7 @@
           "name": {
             "en": "MyPaint",
             "fi": "MyPaint-taideohjelma",
+	    "fr": "MyPaint",
             "sv": "MyPaint",
             "de": "MyPaint"
           }
@@ -176,6 +187,7 @@
           "name": {
             "en": "Gimp - GNU Image Manipulation Program",
             "fi": "Gimp-kuvankäsittely",
+	    "fr": "Gimp",
             "sv": "Gimp",
             "de": "Gimp"
           }
@@ -193,6 +205,7 @@
           "name": {
             "en": "gThumb-image viewer",
             "fi": "gThumb-kuvakatselin",
+	    "fr": "gThumb-visionneuse d'image",
             "sv": "gThumb-bildvisare",
             "de": "gThumb-Bildbetrachter"
           },
@@ -204,6 +217,7 @@
           "name": {
             "en": "Image Viewer",
             "fi": "Kuvakatselin",
+	    "fr": "Visionneuse d'image",
             "sv": "Bildvisare",
             "de": "Bildbetrachter"
           }
@@ -214,6 +228,7 @@
           "name": {
             "en": "Shotwell-photo organizer",
             "fi": "Shotwell-kuva-albumi",
+	    "fr": "Shotwell-organisateur de photo",
             "sv": "Shotwell-foto-album",
             "de": "Shotwell Fotos verwalten"
           }
@@ -224,6 +239,7 @@
           "name": {
             "en": "F-spot-photo management application",
             "fi": "F-spot-kuvaohjelma",
+	    "fr": "F-spot-organisateur de photo",
             "sv": "F-spot",
             "de": "F-Spot"
           }
@@ -237,6 +253,7 @@
           "name": {
             "en": "Inkscape-vector graphics editor",
             "fi": "Inkscape-vektorigrafiikka",
+	    "fr": "Inkskape",
             "sv": "Inkscape-vektorgrafik",
             "de": "Inkscape-Vektorgrafik"
           }
@@ -246,6 +263,7 @@
           "source": "picasa",
           "name": {
             "fi": "Picasa-verkkoalbumit",
+	    "fr": "Picasa-album photo",
             "sv": "Picasa-fotoalbum",
             "de": "Picasa-Fotoalbum"
           }
@@ -257,6 +275,7 @@
           "name": {
             "en": "Simple Scan",
             "fi": "Yksinkertainen skannausohjelma",
+	    "fr": "Scanographie simple",
             "sv": "Enkelt scanningsverktyg",
             "de": "Einfaches Scanner Werkzeug"
           },
@@ -269,6 +288,7 @@
           "name": {
             "en": "XSane-graphical scanning",
             "fi": "Xsane-skannausohjelma",
+	    "fr": "Xsanr-scanographie",
             "sv": "Xsane-scanningsverktyg",
             "de": "Xsane Scannerwerkzeug"
           },
@@ -280,6 +300,7 @@
           "inactiveByDeviceType": "thinclient",
           "name": {
             "fi": "Blender-3D-mallinnusohjelma",
+	    "fr": "Blender-3D-modélisation",
             "sv": "Blender-3D-modellering",
             "de": "Blender-3D-Modellierung"
           }
@@ -289,6 +310,7 @@
           "source": "photofilmstrip",
           "name": {
             "fi": "Photofilmstrip-kuvaesitys",
+	    "fr": "Photofilmstrip",
             "sv": "Photofilmstrip",
             "de": "Photofilmstrip"
           }
@@ -303,6 +325,7 @@
       "description": {
         "en": "Internet-applications",
         "fi": "Internet-sovellukset",
+	"fr": "Lociciel Internet",
         "sv": "Internet-program",
         "de": "Interent Programme"
       },
@@ -314,6 +337,7 @@
           "name": {
             "en": "Firefox-browser",
             "fi": "Firefox-selain",
+	    "fr": "Firefox-navigateur",
             "sv": "Firefox",
             "de": "Firefox"
           }
@@ -324,6 +348,7 @@
           "name": {
             "en": "Chromium-browser",
             "fi": "Chromium-selain",
+	    "fr": "Chromium-navigateur",
             "sv": "Chromium",
             "de": "Chromium-Browser"
           }
@@ -334,6 +359,7 @@
           "name": {
             "en": "Chrome-browser",
             "fi": "Chrome-selain",
+	    "fr": "Chrome-navigateur",
             "sv": "Chrome",
             "de": "Chrome"
           }
@@ -344,6 +370,7 @@
           "name": {
             "en": "Thunderbird-email",
             "fi": "Thunderbird-sähköposti",
+	    "fr": "Thunderbird-émail",
             "sv": "Thundebird-e-post",
             "de": "Thunderbird-Email"
           }
@@ -354,6 +381,7 @@
           "name": {
             "en": "Evolution-email",
             "fi": "Evolution-sähköposti",
+	    "fr": "Evolution-émail",
             "sv": "Evolution-e-post",
             "de": "Evolution-Email"
           }
@@ -364,6 +392,7 @@
           "name": {
             "en": "Pidgin-chat client",
             "fi": "Pidgin-pikaviestin",
+	    "fr": "Pidgin-client de messagerie instantanée",
             "sv": "Pidgin-IM-klient",
             "de": "Pidgin-Chat-Client"
           }
@@ -379,8 +408,9 @@
           "name": {
             "en": "Liferea-feed reader",
             "fi": "Livesyötteiden lukija",
+	    "fr": "Liferea",
             "sv": "Liferea",
-            "de": "Liferea Feadreader"
+            "de": "Liferea Feedreader"
           }
         },
         {
@@ -415,6 +445,7 @@
           "name": {
             "en": "Empathy-chat client",
             "fi": "Empathy-pikaviestin",
+	    "fr": "Empathy-client-MI",
             "sv": "Empathy-IM-klient",
             "de": "Empathy-Chat-Client"
           }
@@ -448,6 +479,7 @@
       "name": {
         "en": "Programming",
         "fi": "Ohjelmointi",
+	"fr": "Programmation",
         "sv": "Programmering",
         "de": "Programmierung"
       },
@@ -482,6 +514,7 @@
           "name": {
             "en": "Teddy Bear programming",
             "fi": "Nalle-ohjelmointi",
+	    "fr": "Programmation ours de peluche",
             "sv": "Teddybjörn programmering",
             "de": "Teddy-Programmierung"
           }
@@ -514,6 +547,7 @@
           "name": {
             "en": "SPE - Python IDE",
             "fi": "Stanin python-editori",
+	    "fr": "Stanis python IDE",
             "sv": "Stanis python-editor",
             "de": "Stanis Python IDE"
           }
@@ -532,6 +566,7 @@
           "name": {
             "en": "Geany - text editor",
             "fi": "Geany - monikielinen editori",
+	    "fr": "Geany - traitement de texte",
             "sv": "Geany - utvecklingsmiljö",
             "de": "Geany - Textverarbeitung"
           }
@@ -542,6 +577,7 @@
           "name": {
             "en": "KTurtle - easy programming",
             "fi": "Konna logo-ohjelmointi",
+	    "fr": "KTurtle - Programmer avec Logo",
             "sv": "KTurtle - logoprogrammering",
             "de": "KTurtle - Programieren mit Logo"
           },
@@ -556,6 +592,7 @@
           "name": {
             "en": "Scratch",
             "fi": "Scratch hahmo-ohjelmointi",
+	    "fr": "Scratch",
             "sv": "Scratch",
             "de": "Scratch"
           }
@@ -570,6 +607,7 @@
           "name": {
             "en": "Bluefish html-editor",
             "fi": "Bluefish html-editori",
+	    "fr": "Bluefish editeur html",
             "sv": "Bluefish html-redigerare",
             "de": "Bluefish Htmleditor"
           }
@@ -580,6 +618,7 @@
           "name": {
             "en": "Qt4 - graphical UI designer",
             "fi": "Käyttöliittymä-suunnittelija",
+	    "fr": "Qt4 - graphic designer ui",
             "sv": "Användargränssnitt-designer",
             "de": "Qt4 - Grafischer UI Designer"
           },
@@ -592,12 +631,14 @@
       "name": {
         "en": "Education",
         "fi": "Opetusohjelmat",
+	"fr": "Education",
         "sv": "Undervisningsprogram",
         "de": "Bildung"
       },
       "description": {
         "en": "Educational applications",
         "fi": "Sovelluksia oppimisen tueksi",
+	"fr": "Applications educationels",
         "sv": "Pedagogiska program",
         "de": "Bildungs Programme"
       },
@@ -614,6 +655,7 @@
           "name": {
             "en": "GCompris-educational software suite",
             "fi": "GCompris-opetuspelit",
+	    "fr": "GCompris-suite logicielle",
             "sv": "GCompris-pedagogiksvit",
             "de": "GCompris"
           }
@@ -625,6 +667,7 @@
           "name":{
             "en": "TuxMath-math game",
             "fi": "TuxMath-matikkapeli",
+	    "fr": "TuxMath-jeu de mathematique",
             "sv": "TuxMath-matematikspel",
             "de": "Tuxmath Mathespiel"
           }
@@ -636,6 +679,7 @@
           "name":{
             "en": "KBruch-fractions",
             "fi": "KBruch-murtoluvut",
+	    "fr": "KBruch-calculer avec fractions",
             "sv": "KBruch-bråktal",
             "de": "KBruch - Rechnen mit Brüchen"
           }
@@ -654,6 +698,7 @@
           "name": {
             "en": "KmPlot-function plotter",
             "fi": "KmPlot-kuvaajat",
+	    "fr": "KmPlot",
             "sv": "KmPlot",
             "de": "KmPlot"
           }
@@ -664,6 +709,7 @@
           "name":{
             "en": "Marble-virtual world",
             "fi": "Marble-maapallo",
+	    "fr": "Marble-monde virtuel",
             "sv": "Marble-jordglob",
             "de": "Marble virtueller Globus"
           }
@@ -674,6 +720,7 @@
           "name":{
             "en": "KGeography-geography",
             "fi": "KGeography-maantieto",
+	    "fr": "KGeography",
             "sv": "KGeography-geografi",
             "de": "Kgeography"
           }
@@ -684,6 +731,7 @@
           "name": {
             "en": "Kanagram - anagrams",
             "fi": "Anagrammit",
+	    "fr": "Kanagram",
             "sv": "Anagram",
             "de": "Anagramme"
           }
@@ -694,6 +742,7 @@
           "name": {
             "en": "KWordQuiz-vocabulary learning",
             "fi": "Sanastoharjoitus",
+	    "fr": "KWordQuiz-mots croisés",
             "sv": "Ordförrådsövningar",
             "de": "Kreuzworträtsel"
           },
@@ -707,6 +756,7 @@
           "name": {
             "en": "KHangMan-hangman game",
             "fi": "Hirsipuu",
+	    "fr": "KHangman",
             "sv": "KHangMan",
             "de": "KHangman"
           },
@@ -720,6 +770,7 @@
           "name": {
             "en": "KTouch-touch typing",
             "fi": "KTouch-konekirjoitus",
+	    "fr": "KTouch-machine à écrire",
             "sv": "KTouch-maskinskrivning",
             "de": "KTouch-Schreibmaschine"
           },
@@ -734,6 +785,7 @@
           "name": {
             "en": "Celestia-space simulation",
             "fi": "Avaruussimulaattori",
+	    "fr": "Celestia-simulateur d'espace",
             "sv": "Rymdsimulator",
             "de": "Celestia Weltraum Simulator"
           }
@@ -745,6 +797,7 @@
           "name": {
             "en": "Stellarium-planetarium",
             "fi": "Stellarium-planetaario",
+	    "fr": "Stellarium-planétarium",
             "sv": "Stellarium-planetarium",
             "de": "Stellaruim-Planetarium"
           }
@@ -755,6 +808,7 @@
           "name": {
             "en": "KStars-astronomy",
             "fi": "KStars-tähtitaivas",
+	    "fr": "KStars-astronomie",
             "sv": "KStars-stjärnhimlen",
             "de": "KStars-Astronomie"
           },
@@ -768,6 +822,7 @@
           "name": {
             "en": "Step-physics simulator",
             "fi": "Step-fysiikan simulaattori",
+	    "fr": "Step",
             "sv": "Step-fysik simulator",
             "de": "Step Physik Simulator"
           },
@@ -796,6 +851,7 @@
           "name": {
             "en": "Ghemical-3D-molecules",
             "fi": "3D-Molekyylit",
+	    "fr": "Molécules 3D",
             "sv": "3D-Molekyler",
             "de": "3D-Moleküle"
           }
@@ -806,6 +862,7 @@
           "name": {
             "en": "Kalzium-periodic system",
             "fi": "Jaksollinen järjestelmä",
+	    "fr": "Kalzium-système periodique",
             "sv": "Periodsystem",
             "de": "Periodensystem"
           },
@@ -820,6 +877,7 @@
           "name": {
             "en": "Mandelbulber",
             "fi": "Mandelbulber",
+	    "fr": "Mandelbulber",
             "sv": "Mandelbulber",
             "de": "Mandelbulber"
           }
@@ -835,12 +893,14 @@
       "name": {
         "en": "Office",
         "fi": "Toimisto",
+	"fr": "Bureau",
         "sv": "Kontor",
         "de": "Büro"
       },
       "description": {
         "en": "Office applications",
         "fi": "Toimisto-ohjelmat",
+	"fr": "Applications bureau",
         "sv": "Kontorsprogram",
         "de": "Büroprogramme"
       },
@@ -857,6 +917,7 @@
           "name": {
             "en": "LibreOffice Writer",
             "fi": "LibreOffice Tekstinkäsittely",
+	    "fr": "LibreOffice traitement de texte",
             "sv": "LibreOffice Textbehandling",
             "de": "LibreOffice Textverarbeitung"
           }
@@ -872,6 +933,7 @@
           "name": {
             "en": "LibreOffice Calc",
             "fi": "LibreOffice Taulukkolaskenta",
+	    "fr": "LibreOffice tableur",
             "sv": "LibreOffice kalkylblad",
             "de": "LibreOffice Tabellenkalkulation"
           }
@@ -887,8 +949,9 @@
           "name": {
             "en": "LibreOffice Impress",
             "fi": "LibreOffice Esitys",
+	    "fr": "LibreOffice présentation",
             "sv": "LibreOffice Presentation",
-            "de": "LibreOffice Präsentaionenen"
+            "de": "LibreOffice Präsentation"
           }
         },
         {
@@ -901,6 +964,7 @@
           "name": {
             "en": "LibreOffice Draw",
             "fi": "LibreOffice Piirros",
+	    "fr": "LibrOffice dessin",
             "sv": "LibreOffice Rita",
             "de": "LibreOffice Zeichnen"
           }
@@ -915,6 +979,7 @@
           "name": {
             "en": "LibreOffice Base",
             "fi": "LibreOffice Tietokanta",
+	    "fr": "LibreOffice base de données",
             "sv": "LibreOffice Databas",
             "de": "LibreOffice Datenbank"
           }
@@ -929,6 +994,7 @@
           "name": {
             "en": "LibreOffice Math",
             "fi": "LibreOffice Kaava",
+	    "fr": "LIbrOffice mathématiques",
             "sv": "LibreOffice Ekvation",
             "de": "LibreOffice Mathematik"
           }
@@ -939,6 +1005,7 @@
           "name": {
             "en": "Scribus-desktop publishing",
             "fi": "Scribus-julkaisuohjelma",
+	    "fr": "Scribus layout",
             "sv": "Scribus Layout",
             "de": "Scribus Seitengestaltung"
           }
@@ -949,6 +1016,7 @@
           "name": {
             "en": "VYM-mindmap",
             "fi": "Miellekarttasovellus",
+	    "fr": "Mindmap",
             "sv": "Mindmap",
             "de": "Mindmap"
           }
@@ -959,6 +1027,7 @@
           "name": {
             "en": "CmapTools-mindmap",
             "fi": "CmapTools-miellekartta",
+	    "fr": "CmapTools-mindmap",
             "sv": "CmapTools-mindmap",
             "de": "CmapTools-Mindmap"
           }
@@ -980,6 +1049,7 @@
           "name": {
             "en": "Okular-document viewer",
             "fi": "Okular-asiakirjakatselin",
+	    "fr": "Okular-visionneuse de documents",
             "sv": "Okular-dokumentläsare",
             "de": "Okular Dokumentenbetrachter"
           },
@@ -996,6 +1066,7 @@
           "name": {
             "en": "Evince-document viewer",
             "fi": "Evince-asiakirjakatselin",
+	    "fr": "Evince-visionneuse de documents",
             "sv": "Evince-dokumentläsare",
             "de": "Evince Dokumentenbetrachter"
           }
@@ -1006,7 +1077,8 @@
           "name": {
             "en": "Tellico-collection manager",
             "fi": "Kirjasto-ohjelma",
-            "sv": "Biblotek",
+	    "fr": "Tellico bibliothèque",
+            "sv": "Bibliotek",
             "de": "Tellico Sammlungs-Verwalter"
           },
           "command": ["tellico"]
@@ -1028,14 +1100,16 @@
       "name": {
         "en": "Audio and video",
         "fi": "Ääni ja video",
+	"fr": "Audio et Vidéo",
         "sv": "Ljud och Video",
         "de": "Audio und Video"
       },
       "description": {
-        "en": "Internet-applications",
+        "en": "Multimedia-applications",
         "fi": "Internet-sovellukset",
+	"fr": "Applications Multimedia",
         "sv": "Internet -applikationer",
-        "de": "Interent Programme"
+        "de": "Muktimedia Programme"
       },
       "osIcon": "applications-multimedia",
       "items": [
@@ -1045,6 +1119,7 @@
           "name": {
             "en": "Sound Recorder",
             "fi": "Ääninauhuri",
+	    "fr": "Enregistrements sonores",
             "sv": "Ljudinspelare",
             "de": "Tonaufnahmen"
           }
@@ -1055,6 +1130,7 @@
           "name": {
             "en": "Audacity-audio editor",
             "fi": "Audacity-äänieditori",
+	    "fr": "Editeur audio",
             "sv": "Audacity-ljudredigerare",
             "de": "Audacity Audio bearbeiten"
           }
@@ -1077,6 +1153,7 @@
           "name": {
             "en": "VLC-media player",
             "fi": "VLC-mediasoitin",
+	    "fr": "VLC-mediaplayer",
             "sv": "VLC-mediaspelare",
             "de": "VLC Medienspieler"
           }
@@ -1087,6 +1164,7 @@
           "name": {
             "en": "MPlayer-media player",
             "fi": "MPlayer-mediasoitin",
+	    "fr": "MPlayer-mediaplayer",
             "sv": "MPlayer-mediaspelare",
             "de": "MPlayer Medienspieler"
           }
@@ -1096,6 +1174,7 @@
           "source": "kaffeine",
           "name": {
             "fi": "Kaffeine-mediasoitin",
+	    "fr": "Kaffeine-mediaplayer",
             "sv": "Kaffeine-mediaspelare",
             "de": "Kaffeine Medienspieler"
           }
@@ -1106,6 +1185,7 @@
           "name": {
             "en": "Banshee-music player",
             "fi": "Banshee-musiikkisoitin",
+	    "fr": "Banshee-Lecteur de musique",
             "sv": "Banshee-mediaspelare",
             "de": "Banshee Medienspieler"
           }
@@ -1134,6 +1214,7 @@
           "name": {
             "en": "OpenShot-video editor",
             "fi": "OpenShot-videoeditori",
+	    "fr": "Openshot-Lecteur vidéo",
             "sv": "OpenShot-videoredigerare",
             "de": "OpenShot Videoeditor"
           }
@@ -1144,6 +1225,7 @@
           "name": {
             "en": "Kdenlive-video editor",
             "fi": "Kdenlive-videoeditori",
+	    "fr": "Kdenlive-editeur vidéo",
             "sv": "Kdenlive-videoredigerare",
             "de": "Kdenlive Videoeditor"
           }
@@ -1153,6 +1235,7 @@
           "name": {
             "en": "Kino-non-linear DV editor",
             "fi": "Kino-videoeditori",
+	    "fr": "Kino-editeur vidéo",
             "sv": "Kino-videoredigerare",
             "de": "Kino Filme bearbeiten"
           },
@@ -1162,6 +1245,7 @@
           "description": {
             "en": "Edit videos",
             "fi": "Muokkaa videoita",
+	    "fr": "Editeur vidéo",
             "sv": "Redigera videon",
             "de": "Video bearbeiten"
           },
@@ -1173,6 +1257,7 @@
           "name": {
             "en": "Pitivi-video editor",
             "fi": "Pitivi-videoeditori",
+	    "fr": "Pitivi-editeur vidéo",
             "sv": "Pitivi-videoredigerare",
             "de": "Pitivi Filme bearbeiten"
           }
@@ -1183,6 +1268,7 @@
           "name": {
             "en": "Solfege-ear training program",
             "fi": "Korvanharjoitus-ohjelma",
+	    "fr": "Solfège",
             "sv": "Gehör-övningar",
             "de": "Hörbildung"
           }
@@ -1193,6 +1279,7 @@
           "name": {
             "en": "MuseScore-music composition & notation",
             "fi": "Nuotinnusohjelma",
+	    "fr": "Partition de musique",
             "sv": "Notering",
             "de": "Musik-Notensatz"
           }
@@ -1203,6 +1290,7 @@
           "name": {
             "en": "Denemo-music notation",
             "fi": "Denemo-nuotinnus",
+	    "fr": "Denemo-partition de musique",
             "sv": "Denemo-notering",
             "de": "Denemo Notizen"
           }
@@ -1214,6 +1302,7 @@
           "name": {
             "en": "Hydrogen-drum machine",
             "fi": "Hydrogen-rumpukone",
+	    "fr": "Hydrogen-drum machine",
             "sv": "Hydrogen-trummaskin",
             "de": "Hydrogen Drum Machine"
           }
@@ -1224,6 +1313,7 @@
           "name": {
             "en": "Rosegarden-sequencer",
             "fi": "Rosegarden-sekvensseri",
+	    "fr": "Rosegarden-séquenceur",
             "sv": "Rosegarden-sekvenser",
             "de": "Rosegarden Sequencer"
           }
@@ -1234,6 +1324,7 @@
           "name": {
             "en": "TuxGuitar-multitrack tablature editor",
             "fi": "Kitaranuotinnus",
+	    "fr": "Tabulateur de guitare",
             "sv": "Noter för gitarr",
             "de": "Tabulaturen für Gitarre"
           },
@@ -1245,6 +1336,7 @@
           "name": {
             "en": "Fmit-instrument tuner",
             "fi": "Viritinohjelma",
+	    "fr": "Accordage",
             "sv": "Stämmningsprogram",
             "de": "Stimmprogramm"
           }
@@ -1255,6 +1347,7 @@
           "name": {
             "en": "Luciole-stopmotion software",
             "fi": "Stopmotion-animaatio-ohjelma",
+	    "fr": "Stopmotion",
             "sv": "Stopmotion-animationsprogram",
             "de": "Stopmotion Animationsprogramm"
           },
@@ -1276,57 +1369,16 @@
     {
       "type": "menu",
       "name": {
-        "en": "Interactive whiteboards",
-        "fi": "Älytaulut",
-        "sv": "Interaktiva tavlor",
-        "de": "Interaktive Wandtafeln"
-      },
-      "description": {
-        "en": "Internet-applications",
-        "fi": "Internet-sovellukset",
-        "sv": "Internet-applikationer",
-        "de": "Internet Programme"
-      },
-      "osIconPath": "/usr/share/icons/hicolor/128x128/apps/SMART_Tools.png",
-      "items": [
-        {
-          "type": "desktop",
-          "source": "smarttech-notebook",
-          "osIconPath": "/usr/share/icons/hicolor/128x128/apps/SMART_Notebook.png"
-        },
-        {
-          "type": "desktop",
-          "source": "Open-Sankore",
-          "keywords": ["smart", "notebook"],
-          "name": {
-            "en": "Open-Sankore",
-            "fi": "Open-Sankoré-älytauluohjelmisto",
-            "sv": "Open-Sankore",
-            "de": "Open-Sankore"
-          }
-        },
-        {
-          "type": "desktop",
-          "source": "ebeam"
-        },
-        {
-          "type": "desktop",
-          "source": "mimio-notebook",
-          "osIconPath": "/usr/share/icons/mimio-notebook.png"
-        }
-          ]
-    },
-    {
-      "type": "menu",
-      "name": {
         "en": "Web applications",
         "fi": "Web-sovellukset",
+	"fr": "Applications Web",
         "sv": "Web applikationer",
         "de": "Web Anwendungen"
       },
       "description": {
         "en": "Web applications",
         "fi": "Web-sovellukset",
+	"fr": "Applications web",
         "sv": "Web applikationer",
         "de": "Web Anwendungen"
       },
@@ -1343,6 +1395,7 @@
           "description": {
             "en": "YouTube",
             "fi": "YouTube-videopalvelu",
+	    "fr": "YouTube",
             "sv": "YouTube",
             "de": "YouTube"
           },
@@ -1355,6 +1408,7 @@
           "description": {
             "en": "Wikipedia encyclopedia",
             "fi": "Wikipedia-tietosanakirja",
+	    "fr": "Wikprdia-encyclopédie",
             "sv": "Wikipedia uppslagsverk",
             "de": "Wikipedia Enziklopädie"
           },
@@ -1367,6 +1421,7 @@
           "description": {
             "en": "Yle Areena-online videos",
             "fi": "Yle Areena-videopalvelu",
+	    "fr": "Yle",
             "sv": "Yle Arena",
             "de": "Yle Arena - Online Videos"
           },
@@ -1386,6 +1441,7 @@
           "description": {
             "en": "Sumopaint-online graphics editor",
             "fi": "Sumopaint-webkuvankäsittely",
+	    "fr": "Sumopaint-dessin",
             "sv": "Sumopaint-bildbehandling",
             "de": "Sumopaint Online Bildbearbeitung"
           },
@@ -1401,6 +1457,7 @@
           "description": {
             "en": "Collaborative whiteboard",
             "fi": "Yhteistoiminnallinen piirtotaulu",
+	    "fr": "Walma",
             "sv": "Kollaborativ whiteboard",
             "de": "Mit dem Whiteboard zusammenarbweiten"
           },
@@ -1436,6 +1493,7 @@
       "source": "nautilus-home",
       "name": {
         "fi": "Kotikansio",
+	"fr": "Dossier personnel",
         "sv": "Hemmapp",
         "en": "Home folder",
         "de": "Home Verzeichnis"

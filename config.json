@@ -18,6 +18,7 @@
     "command": ["gnome-control-center"],
     "name": {
       "fi": "Järjestelmäasetukset",
+      "fr": "Paramètres système",
       "en": "System Settings",
       "sv": "Systeminställningar",
       "de": "Systemeinstellungen"
@@ -29,6 +30,7 @@
     "url": "https://{{puavoDomain}}/users/profile/edit",
     "name": {
       "fi": "Profiili",
+      "fr": "Profile",
       "en": "Profile",
       "sv": "Profil",
       "de": "Profil"
@@ -40,6 +42,7 @@
     "url": "http://tuki.opinsys.fi",
     "name": {
       "fi": "Tukisivusto",
+      "fr": "Support",
       "en": "Support",
       "sv": "Stöd",
       "de": "Support"
@@ -52,6 +55,7 @@
     "osIconPath": "/usr/share/icons/Faenza/emblems/96/emblem-readonly.png",
     "name": {
       "fi": "Salasana",
+      "fr": "Mot de passe",
       "en": "Password",
       "sv": "Lösenord",
       "de": "Passwort"
@@ -63,6 +67,7 @@
       "name": {
           "en": "Shutdown",
           "fi": "Sammuta",
+	  "fr": "Éteindre",
           "sv": "Stäng av",
           "de": "Abschalten"
       },
@@ -82,6 +87,7 @@
       "name": {
           "en": "Restart",
           "fi": "Käynnistä uudelleen",
+	  "fr": "Redémarrer",
           "sv": "Starta om",
           "de": "Neustarten"
       },
@@ -101,6 +107,7 @@
       "name": {
           "en": "Sleep",
           "fi": "Unitila",
+	  "fr": "Mise en veille",
           "sv": "Strömsparläge",
           "de": "Schlafen"
       },
@@ -128,6 +135,7 @@
       "name": {
           "en": "Logout",
           "fi": "Kirjaudu ulos",
+	  "fr": "Se déconnecter",
           "sv": "Logga ut",
           "de": "Abmelden"
       },
@@ -149,6 +157,7 @@
       "name": {
           "en": "Lock Screen",
           "fi": "Lukitse näyttö",
+	  "fr": "Verrouiller l'écran",
           "sv": "Lås skärmen",
           "de": "Bildschirm sperren"
       },

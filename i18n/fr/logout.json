@@ -1,0 +1,21 @@
+{
+  "logout": "Se déconnecter",
+  "shutdown": "Éteindre",
+  "restart": "Redémarer",
+  "cancel": "Cancel",
+  "exit": "Quitter",
+  "lock": "Verrouiller l'écran",
+  "hibernate": "Hibernate",
+  "sleep": "Mise en veille",
+  "shutdownAction": "L'ordinateur sera arrêté en {count} secondes.",
+  "logoutAction": "Vous serez déconnecté en {count} secondes.",
+  "restartAction": "L'ordinateur sera redémarré en {count} secondes.",
+  "sleepAction": "L'ordinateur sera mis en veille en {count} secondes.",
+  "hibernateAction": "L'ordinateur sera hiberné en {count} secondes.",
+  "lockAction": "L'ordinateur sera verrouillé en {count} secondes.",
+  "clickCancel": "Cliquez n'importe où pour annuler.",
+  "sending": "envoiant...",
+  "sendingFailed": "Échec de l'envoi pour une raison quelconque :(",
+  "now": "maintenant!",
+  "or": "ou bien..."
+}
