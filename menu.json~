@@ -1369,52 +1369,6 @@
     {
       "type": "menu",
       "name": {
-        "en": "Interactive whiteboards",
-        "fi": "Älytaulut",
-        "sv": "Interaktiva tavlor",
-        "de": "Interaktive Wandtafeln",
-        "fr": "Tableau blanc interactif"
-      },
-      "description": {
-        "en": "Interactive whiteboards",
-        "fi": "Älytaulut",
-        "sv": "Interaktiva tavlor",
-        "de": "Interaktive Wandtafeln",
-        "fr": "Tableau blanc interactif"
-      },
-      "osIconPath": "/usr/share/icons/hicolor/128x128/apps/SMART_Tools.png",
-      "items": [
-        {
-          "type": "desktop",
-          "source": "smarttech-notebook",
-          "osIconPath": "/usr/share/icons/hicolor/128x128/apps/SMART_Notebook.png"
-        },
-        {
-          "type": "desktop",
-          "source": "Open-Sankore",
-          "keywords": ["smart", "notebook"],
-          "name": {
-            "en": "Open-Sankore",
-            "fi": "Open-Sankoré-älytauluohjelmisto",
-            "sv": "Open-Sankore",
-            "de": "Open-Sankore",
-            "fr": "Open-Sankoré"
-          }
-        },
-        {
-          "type": "desktop",
-          "source": "ebeam"
-        },
-        {
-          "type": "desktop",
-          "source": "mimio-notebook",
-          "osIconPath": "/usr/share/icons/mimio-notebook.png"
-        }
-          ]
-    },
-    {
-      "type": "menu",
-      "name": {
         "en": "Web applications",
         "fi": "Web-sovellukset",
 	"fr": "Applications Web",
